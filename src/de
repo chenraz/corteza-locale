@@ -1,12 +1,7 @@
 ---
-template:
-  title: Passwort zurücksetzen
-  form:
-    email:
-      label: E-Mail
-      placeholder: email@domain.tld
-    new-password:
-      label: Neues Passwort
-      placeholder: Neues Passwort festlegen
-    buttons:
-      change-password: Ändern Sie Ihr Passwort
+errors:
+  invalidID: ungültige ID
+  notAllowedToAssign: Erinnerungen können anderen Benutzern nicht zugewiesen werden
+  notAllowedToDismiss: Erinnerungen von anderen Benutzern können nicht abgewiesen werden
+  notAllowedToRead: Erinnerungen von anderen Benutzern können nicht gelesen werden
+  notFound: Erinnerung nicht gefunden
