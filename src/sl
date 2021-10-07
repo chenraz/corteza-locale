@@ -1,22 +1,4 @@
 ---
 template:
-  title: Prijava
-  form:
-    email:
-      label: E-mail
-      placeholder: email@domain.ltd
-    password:
-      label: Geslo
-      placeholder: geslo
-    button:
-      login-and-remember: Prijavi in zapomni si me
-      login: Prijavi
-      continue: Nadaljuj
-  links:
-    request-password-reset: Pozabljeno geslo?
-    signup: Ustvari račun
-    external:
-    login-with: Prijavi se z {{idp}}
-alerts:
-  logged-in: Sedaj si prijavljen.
-  local-disabled: Local accounts disabled
+  log-out: Odjava uspešna.
+  log-in: Klikni tukaj za <a href="{{link}}">prijavo</a>.
