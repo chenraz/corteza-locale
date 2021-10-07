@@ -1,54 +1,41 @@
 ---
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
+    consumer: Consumer
     createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
-    handle: Handle
-    name: Role name
+    dispatch_events: Dispatch events
+    dispatch_events_desc: Dispatch events notifies the eventbus of queue message changes (new, processed, ...)
+    name: Queue name
+    poll_delay: Polling changes delay
+    poll_delay_empty: 'Poll delay will not be used; to enable, use duration format (ie: 1h / 1m15s / 1h90s)'
+    poll_delay_set: Poll delay will be used; if empty, it will not be used.
     title: Basic information
-    unarchive: Unarchive
     undelete: Undelete
     updatedAt: Updated at
-  members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
   new: New
-  permissions: Permissions
   title:
-    create: Create role
-    edit: Edit role
+    edit: Edit queue
+    new: Add a queue
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
+    actions: Actions
+    consumer: Consumer
+    createdAt: Created At
+    queue: Queue
   filterForm:
-    archived:
-      label: archived roles
     deleted:
-      label: deleted roles
+      label: deleted queues
     excluded:
       label: Without
     exclusive:
       label: Only
+    handle:
+      label: Filter queues list
+      placeholder: Filter queues by name
     inclusive:
       label: Including
-    query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
+  loading: Loading messaging queues
   new: New
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
-  permissions: Permissions
-  title: Roles
-  yaml: YAML
+  title: Messaging queues
