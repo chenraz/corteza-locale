@@ -1,18 +1,13 @@
 ---
 errors:
-  badSinkParamEncoding: crwdns62185:0crwdne62185:0
-  contentLengthExceedsMaxAllowedSize: crwdns62187:0crwdne62187:0
-  failedToCreateEvent: crwdns62189:0crwdne62189:0
-  failedToProcess: crwdns62191:0crwdne62191:0
-  failedToRespond: crwdns62193:0crwdne62193:0
-  failedToSign: 'crwdns62195:0{err}crwdne62195:0'
-  invalidContentType: crwdns62197:0crwdne62197:0
-  invalidHttpMethod: crwdns62199:0crwdne62199:0
-  invalidPath: crwdns62201:0crwdne62201:0
-  invalidSignature: crwdns62203:0crwdne62203:0
-  invalidSignatureParam: crwdns62205:0crwdne62205:0
-  invalidSinkRequestUrlParams: crwdns62207:0crwdne62207:0
-  misplacedSignature: crwdns62209:0crwdne62209:0
-  missingSignature: crwdns62211:0crwdne62211:0
-  processingError: crwdns62213:0crwdne62213:0
-  signatureExpired: crwdns62215:0crwdne62215:0
+  cannotRenderPartial: crwdns62219:0crwdne62219:0
+  invalidHandle: crwdns62221:0crwdne62221:0
+  invalidID: crwdns62223:0crwdne62223:0
+  notAllowedToCreate: crwdns62225:0crwdne62225:0
+  notAllowedToDelete: crwdns62227:0crwdne62227:0
+  notAllowedToRead: crwdns62229:0crwdne62229:0
+  notAllowedToRender: crwdns62231:0crwdne62231:0
+  notAllowedToSearch: crwdns62233:0crwdne62233:0
+  notAllowedToUndelete: crwdns62235:0crwdne62235:0
+  notAllowedToUpdate: crwdns62237:0crwdne62237:0
+  notFound: crwdns62239:0crwdne62239:0
