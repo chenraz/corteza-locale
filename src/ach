@@ -1,7 +1,72 @@
 ---
 list:
-  columns:
-    events: crwdns62915:0crwdne62915:0
-    label: crwdns62917:0crwdne62917:0
-    name: crwdns62919:0crwdne62919:0
-  title: crwdns62921:0crwdne62921:0
+  rules:
+    add: crwdns62925:0crwdne62925:0
+    addRole: crwdns62927:0crwdne62927:0
+    chart:
+      operations:
+        delete: crwdns62929:0crwdne62929:0
+        read: crwdns62931:0crwdne62931:0
+        update: crwdns62933:0crwdne62933:0
+      type:
+        label: crwdns62935:0crwdne62935:0
+    component:
+      operations:
+        grant: crwdns62937:0crwdne62937:0
+        namespaceCreate: crwdns62939:0crwdne62939:0
+        namespacesSearch: crwdns62941:0crwdne62941:0
+        settingsManage: crwdns62943:0crwdne62943:0
+        settingsRead: crwdns62945:0crwdne62945:0
+      type:
+        label: crwdns62947:0crwdne62947:0
+    loading: crwdns62949:0crwdne62949:0
+    module:
+      operations:
+        delete: crwdns62951:0crwdne62951:0
+        read: crwdns62953:0crwdne62953:0
+        recordCreate: crwdns62955:0crwdne62955:0
+        recordsSearch: crwdns62957:0crwdne62957:0
+        update: crwdns62959:0crwdne62959:0
+      type:
+        label: crwdns62961:0crwdne62961:0
+    moduleField:
+      operations:
+        recordValueRead: crwdns62963:0crwdne62963:0
+        recordValueUpdate: crwdns62965:0crwdne62965:0
+      type:
+        label: crwdns62967:0crwdne62967:0
+    namespace:
+      operations:
+        chartCreate: crwdns62969:0crwdne62969:0
+        chartsSearch: crwdns62971:0crwdne62971:0
+        delete: crwdns62973:0crwdne62973:0
+        manage: crwdns62975:0crwdne62975:0
+        moduleCreate: crwdns62977:0crwdne62977:0
+        modulesSearch: crwdns62979:0crwdne62979:0
+        pageCreate: crwdns62981:0crwdne62981:0
+        pagesSearch: crwdns62983:0crwdne62983:0
+        read: crwdns62985:0crwdne62985:0
+        update: crwdns62987:0crwdne62987:0
+      type:
+        label: crwdns62989:0crwdne62989:0
+    noRole: crwdns62991:0crwdne62991:0
+    notAllowed: crwdns62993:0crwdne62993:0
+    page:
+      operations:
+        delete: crwdns62995:0crwdne62995:0
+        read: crwdns62997:0crwdne62997:0
+        update: crwdns62999:0crwdne62999:0
+      type:
+        label: crwdns63001:0crwdne63001:0
+    record:
+      operations:
+        delete: crwdns63003:0crwdne63003:0
+        read: crwdns63005:0crwdne63005:0
+        update: crwdns63007:0crwdne63007:0
+      type:
+        label: crwdns63009:0crwdne63009:0
+    submit: crwdns63011:0crwdne63011:0
+    tip1: crwdns63013:0crwdne63013:0
+    tip2: crwdns63015:0crwdne63015:0
+    title: crwdns63017:0crwdne63017:0
+  title: crwdns63019:0crwdne63019:0
