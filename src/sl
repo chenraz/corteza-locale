@@ -1,10 +1,19 @@
 ---
 template:
-  title: Zahtevaj ponastavitev gesla
+  title: Your profile
   form:
     email:
-      label: E-mail
+      label: Email
       placeholder: email@domain.ltd
+      resend-confirmation-link: Email is not verified, <a href="{{link}}?resend">resend confirmation link.</a>
+    name:
+      label: Ime
+      placeholder: Tvoje ime
+    handle:
+      label: Handle
+      placeholder: Kratko ime ali vzdevek
     buttons:
-      request: Zahtevaj ponastavitev gesla preko email-a
-  links: <a href="{{signup}}">Ustvari nov račun</a> ali <a href="{{login}}">se prijavi</a>.
+      submit: Posodobi profil
+alerts:
+  profile-updated: Profil uspešno posodobljen.
+  profile-update-fail: Could not update profile due to input errors
