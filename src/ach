@@ -1,114 +1,41 @@
 ---
+editor:
+  info:
+    consumer: crwdns63789:0crwdne63789:0
+    createdAt: crwdns63791:0crwdne63791:0
+    delete: crwdns63793:0crwdne63793:0
+    deletedAt: crwdns63795:0crwdne63795:0
+    dispatch_events: crwdns63797:0crwdne63797:0
+    dispatch_events_desc: crwdns63799:0crwdne63799:0
+    name: crwdns63801:0crwdne63801:0
+    poll_delay: crwdns63803:0crwdne63803:0
+    poll_delay_empty: 'crwdns63805:0crwdne63805:0'
+    poll_delay_set: crwdns63807:0crwdne63807:0
+    title: crwdns63809:0crwdne63809:0
+    undelete: crwdns63811:0crwdne63811:0
+    updatedAt: crwdns63813:0crwdne63813:0
+  new: crwdns63815:0crwdne63815:0
+  title:
+    edit: crwdns63817:0crwdne63817:0
+    new: crwdns63819:0crwdne63819:0
 list:
-  rules:
-    add: crwdns63625:0crwdne63625:0
-    addRole: crwdns63627:0crwdne63627:0
-    application:
-      operations:
-        delete: crwdns63629:0crwdne63629:0
-        read: crwdns63631:0crwdne63631:0
-        update: crwdns63633:0crwdne63633:0
-      type:
-        label: crwdns63635:0crwdne63635:0
-    authClient:
-      operations:
-        authorize: crwdns63637:0crwdne63637:0
-        delete: crwdns63639:0crwdne63639:0
-        read: crwdns63641:0crwdne63641:0
-        update: crwdns63643:0crwdne63643:0
-      type:
-        label: crwdns63645:0crwdne63645:0
-    component:
-      operations:
-        actionLogRead: crwdns63647:0crwdne63647:0
-        applicationCreate: crwdns63649:0crwdne63649:0
-        applicationFlagGlobal: crwdns63651:0crwdne63651:0
-        applicationFlagSelf: crwdns63653:0crwdne63653:0
-        applicationsSearch: crwdns63655:0crwdne63655:0
-        authClientCreate: crwdns63657:0crwdne63657:0
-        authClientsSearch: crwdns63659:0crwdne63659:0
-        apigwRouteCreate: crwdns63661:0crwdne63661:0
-        apigwRoutesSearch: crwdns63663:0crwdne63663:0
-        apigwFilterCreate: crwdns63665:0crwdne63665:0
-        apigwFiltersSearch: crwdns63667:0crwdne63667:0
-        grant: crwdns63669:0crwdne63669:0
-        queueCreate: crwdns63671:0crwdne63671:0
-        queuesSearch: crwdns63673:0crwdne63673:0
-        reminderAssign: crwdns63675:0crwdne63675:0
-        roleCreate: crwdns63677:0crwdne63677:0
-        rolesSearch: crwdns63679:0crwdne63679:0
-        settingsManage: crwdns63681:0crwdne63681:0
-        settingsRead: crwdns63683:0crwdne63683:0
-        templateCreate: crwdns63685:0crwdne63685:0
-        templatesSearch: crwdns63687:0crwdne63687:0
-        userCreate: crwdns63689:0crwdne63689:0
-        usersSearch: crwdns63691:0crwdne63691:0
-      type:
-        label: crwdns63693:0crwdne63693:0
-    loading: crwdns63695:0crwdne63695:0
-    noRole: crwdns63697:0crwdne63697:0
-    notAllowed: crwdns63699:0crwdne63699:0
-    queue:
-      operations:
-        delete: crwdns63701:0crwdne63701:0
-        queueRead: crwdns63703:0crwdne63703:0
-        queueWrite: crwdns63705:0crwdne63705:0
-        read: crwdns63707:0crwdne63707:0
-        update: crwdns63709:0crwdne63709:0
-      type:
-        label: crwdns63711:0crwdne63711:0
-    role:
-      operations:
-        delete: crwdns63713:0crwdne63713:0
-        membersManage: crwdns63715:0crwdne63715:0
-        read: crwdns63717:0crwdne63717:0
-        update: crwdns63719:0crwdne63719:0
-      type:
-        label: crwdns63721:0crwdne63721:0
-    submit: crwdns63723:0crwdne63723:0
-    apigwRoute:
-      type:
-        label: 'crwdns63725:0crwdne63725:0'
-      operations:
-        read: 'crwdns63727:0crwdne63727:0'
-        update: 'crwdns63729:0crwdne63729:0'
-        delete: 'crwdns63731:0crwdne63731:0'
-    apigwFilter:
-      type:
-        label: 'crwdns63733:0crwdne63733:0'
-      operations:
-        read: 'crwdns63735:0crwdne63735:0'
-        update: 'crwdns63737:0crwdne63737:0'
-        delete: 'crwdns63739:0crwdne63739:0'
-    template:
-      operations:
-        delete: crwdns63741:0crwdne63741:0
-        read: crwdns63743:0crwdne63743:0
-        render: crwdns63745:0crwdne63745:0
-        update: crwdns63747:0crwdne63747:0
-      type:
-        label: crwdns63749:0crwdne63749:0
-    tip1: crwdns63751:0crwdne63751:0
-    tip2: crwdns63753:0crwdne63753:0
-    title: crwdns63755:0crwdne63755:0
-    user:
-      operations:
-        delete: crwdns63757:0crwdne63757:0
-        emailUnmask: crwdns63759:0crwdne63759:0
-        impersonate: crwdns63761:0crwdne63761:0
-        nameUnmask: crwdns63763:0crwdne63763:0
-        read: crwdns63765:0crwdne63765:0
-        suspend: crwdns63767:0crwdne63767:0
-        unsuspend: crwdns63769:0crwdne63769:0
-        update: crwdns63771:0crwdne63771:0
-      type:
-        label: crwdns63773:0crwdne63773:0
-    report:
-      operations:
-        read: crwdns63775:0crwdne63775:0
-        update: crwdns63777:0crwdne63777:0
-        delete: crwdns63779:0crwdne63779:0
-        run: crwdns63781:0crwdne63781:0
-      type:
-        label: crwdns63783:0crwdne63783:0
-  title: crwdns63785:0crwdne63785:0
+  columns:
+    actions: crwdns63821:0crwdne63821:0
+    consumer: crwdns63823:0crwdne63823:0
+    createdAt: crwdns63825:0crwdne63825:0
+    queue: crwdns63827:0crwdne63827:0
+  filterForm:
+    deleted:
+      label: crwdns63829:0crwdne63829:0
+    excluded:
+      label: crwdns63831:0crwdne63831:0
+    exclusive:
+      label: crwdns63833:0crwdne63833:0
+    handle:
+      label: crwdns63835:0crwdne63835:0
+      placeholder: crwdns63837:0crwdne63837:0
+    inclusive:
+      label: crwdns63839:0crwdne63839:0
+  loading: crwdns63841:0crwdne63841:0
+  new: crwdns63843:0crwdne63843:0
+  title: crwdns63845:0crwdne63845:0
