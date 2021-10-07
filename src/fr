@@ -1,9 +1,6 @@
 ---
 errors:
-  invalidID: invalid ID
-  notAllowedToDelete: not allowed to delete this session
-  notAllowedToManage: not allowed to manage session's workflow
-  notAllowedToRead: not allowed to read this session
-  notAllowedToSearch: not allowed to search or list sessions
-  notFound: session not found
-  staleData: stale data
+  failedToDownloadAttachment: 'could not download attachment from {attachmentURL}: {err}'
+  failedToLoadUser: could not load user for {recipient}
+  invalidReceipientFormat: invalid recipient format ({recipient})
+  noRecipients: cannot send email message without recipients
