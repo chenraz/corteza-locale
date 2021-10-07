@@ -1,6 +1,19 @@
 ---
 template:
-  title: Zweifaktor Authentifizierung mit TOTP deaktiveren
-  instructions: Disable by entering existing code.
-  button:
-    remove: Entfernen
+  title: Multi-factor authentication
+  email:
+    instructions: Check your inbox and enter the received code
+    code: Code
+    verify: Verifizieren
+    resend: Erneut Senden
+    confirmed: Email OTP confirmed
+  totp:
+    instructions: Check your TOTP application and enter the code you received
+    code: Code
+    confirmed: TOTP confirmed
+    verify: Verifizieren
+alerts:
+  email:
+    resent: Email OTP resent
+  topt:
+    valid: TOTP valid
