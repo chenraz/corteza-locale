@@ -1,69 +1,59 @@
 ---
-list:
-  title: 'crwdns63311:0crwdne63311:0'
-  new: 'crwdns63313:0crwdne63313:0'
-  permissions: 'crwdns63315:0crwdne63315:0'
-  yaml: 'crwdns63317:0crwdne63317:0'
-  loading: 'crwdns63319:0crwdne63319:0'
-  numFound: 'crwdns63321:0{{count}}crwdne63321:0'
-  numFound_plural: 'crwdns63323:0{{count}}crwdne63323:0'
-  filterForm:
-    query:
-      label: 'crwdns63325:0crwdne63325:0'
-      placeholder: 'crwdns63327:0crwdne63327:0'
-    excluded:
-      label: 'crwdns63329:0crwdne63329:0'
-    inclusive:
-      label: 'crwdns63331:0crwdne63331:0'
-    exclusive:
-      label: 'crwdns63333:0crwdne63333:0'
-    deleted:
-      label: 'crwdns63335:0crwdne63335:0'
-  columns:
-    endpoint: 'crwdns63337:0crwdne63337:0'
-    createdAt: 'crwdns63339:0crwdne63339:0'
-    enabled: 'crwdns63341:0crwdne63341:0'
-    actions: 'crwdns63343:0crwdne63343:0'
 editor:
-  title: 'crwdns63345:0crwdne63345:0'
-  new: 'crwdns63347:0crwdne63347:0'
-  permissions: 'crwdns63349:0crwdne63349:0'
   info:
-    title: 'crwdns63351:0crwdne63351:0'
-    id: 'crwdns63353:0crwdne63353:0'
-    endpoint: 'crwdns63355:0crwdne63355:0'
-    method: 'crwdns63357:0crwdne63357:0'
-    enabled: 'crwdns63359:0crwdne63359:0'
-    delete: 'crwdns63361:0crwdne63361:0'
-    undelete: 'crwdns63363:0crwdne63363:0'
-    deletedAt: 'crwdns63365:0crwdne63365:0'
-    updatedAt: 'crwdns63367:0crwdne63367:0'
-    createdAt: 'crwdns63369:0crwdne63369:0'
-    validEndpoint: 'crwdns63371:0crwdne63371:0'
-  filters:
-    title: 'crwdns63373:0crwdne63373:0'
-    modal:
-      title: 'crwdns63375:0crwdne63375:0'
-      ok: 'crwdns63377:0crwdne63377:0'
-      statusActive: 'crwdns63379:0crwdne63379:0'
-      statusDisabled: 'crwdns63381:0crwdne63381:0'
-    step_title:
-      prefilter: 'crwdns63383:0crwdne63383:0'
-      processer: 'crwdns63385:0crwdne63385:0'
-      postfilter: 'crwdns63387:0crwdne63387:0'
-    list:
-      remove: 'crwdns63389:0crwdne63389:0'
-      filters: 'crwdns63391:0crwdne63391:0'
-      status: 'crwdns63393:0crwdne63393:0'
-      actions: 'crwdns63395:0crwdne63395:0'
-      active: 'crwdns63397:0crwdne63397:0'
-      noFiltersMsg: 'crwdns63399:0crwdne63399:0'
-    labels:
-      expr: 'crwdns63401:0crwdne63401:0'
-      location: 'crwdns63403:0crwdne63403:0'
-      workflow: 'crwdns63405:0crwdne63405:0'
-      status: 'crwdns63407:0crwdne63407:0'
-    add: 'crwdns63409:0crwdne63409:0'
-    addFilter: 'crwdns63411:0crwdne63411:0'
-    params: 'crwdns63413:0crwdne63413:0'
-    filterListEmpty: 'crwdns63415:0crwdne63415:0'
+    createdAt: crwdns63417:0crwdne63417:0
+    delete: crwdns63419:0crwdne63419:0
+    deletedAt: crwdns63421:0crwdne63421:0
+    enabled: crwdns63423:0crwdne63423:0
+    id: crwdns63425:0crwdne63425:0
+    name: crwdns63427:0crwdne63427:0
+    title: crwdns63429:0crwdne63429:0
+    undelete: crwdns63431:0crwdne63431:0
+    updatedAt: crwdns63433:0crwdne63433:0
+  new: crwdns63435:0crwdne63435:0
+  permissions: crwdns63437:0crwdne63437:0
+  title:
+    create: crwdns63439:0crwdne63439:0
+    edit: crwdns63441:0crwdne63441:0
+  unify:
+    config:
+      description: crwdns63443:0crwdne63443:0
+      label: crwdns63445:0crwdne63445:0
+    listed: crwdns63447:0crwdne63447:0
+    logo:
+      description: crwdns63449:0crwdne63449:0
+      label: crwdns63451:0crwdne63451:0
+      placeholder: crwdns63453:0crwdne63453:0
+    name:
+      description: crwdns63455:0crwdne63455:0
+      label: crwdns63457:0crwdne63457:0
+    pinned: crwdns63459:0crwdne63459:0
+    title: crwdns63461:0crwdne63461:0
+    url:
+      description: crwdns63463:0crwdne63463:0
+      label: crwdns63465:0crwdne63465:0
+list:
+  columns:
+    actions: "crwdns63467:0crwdne63467:0"
+    createdAt: crwdns63469:0crwdne63469:0
+    enabled: crwdns63471:0crwdne63471:0
+    name: crwdns63473:0crwdne63473:0
+  filterForm:
+    deleted:
+      label: crwdns63475:0crwdne63475:0
+    excluded:
+      label: crwdns63477:0crwdne63477:0
+    exclusive:
+      label: crwdns63479:0crwdne63479:0
+    inclusive:
+      label: crwdns63481:0crwdne63481:0
+    query:
+      label: crwdns63483:0crwdne63483:0
+      placeholder: crwdns63485:0crwdne63485:0
+  loading: crwdns63487:0crwdne63487:0
+  new: crwdns63489:0crwdne63489:0
+  numFound: 'crwdns63491:0{{count}}crwdne63491:0'
+  numFound_plural: 'crwdns63493:0{{count}}crwdne63493:0'
+  permissions: crwdns63495:0crwdne63495:0
+  title: crwdns63497:0crwdne63497:0
+  yaml: crwdns63499:0crwdne63499:0
