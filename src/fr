@@ -1,71 +1,92 @@
 ---
 editor:
-  content:
-    editor:
-      unsupported: Unsupported editor
-    partial: Partial template
-    preview:
-      html: Preview HTML
-      pdf: Preview PDF
-      title: Preview output
-    title: Template content
-    toolbox:
-      partials: Partials
-      samples:
-        defaultHTML: Default HTML
-        label: Samples
-      snippets:
-        funcCall: Call a function
-        interpolate: Interpolate value
-        iterator: Iterate over a set
-        label: Snippets
-      title: Toolbox
   info:
-    contentType:
-      text_html: HTML
-      text_plain: Plain text
+    confirmEmail: Confirm email address
     createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
+    email: Email
     handle: Handle
-    meta:
-      description: Description
-      short: Short name
-    partial: Partial template
-    partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
+    name: Full name
+    revokeAllSession: Revoke all active session
+    suspend: Suspend
+    suspendedAt: Suspended at
     title: Basic information
-    type: Template type
     undelete: Undelete
+    unsuspend: Unsuspend
     updatedAt: Updated at
+  mfa:
+    TOTP:
+      disabled:
+        text: User did not configure TOTP protection.
+      enabled:
+        text: User configured TOTP protection auth mobile app.
+      remove:
+        label: Remove
+    emailOTP:
+      disable:
+        label: Disable
+      disabled:
+        text: |-
+          Email OTP protection is disabled for this user.
+          Email with the security code on each login will not be sent.
+      enable:
+        label: Enable
+      enabled:
+        text: |-
+          Email OTP protection is enabled for this user.
+          User will receive email with the security code on each login.
+    title: Multi-factor authentication
   new: New
+  notifications:
+    membershipOK: Membership successfully  updated
+    passwordOK: Password successfully  changed
+    title: User updated
+    userInfoOK: User info successfully updated
+  password:
+    confirm: Confirm password
+    length: The passwords must be at least {{length}} characters long!
+    missmatch: The passwords must match!
+    new: New password
+    title: Password
+    removePassword: Remove password
   permissions: Permissions
+  roles:
+    add: Add
+    count: Roles ({{count}})
+    remove: Remove
+    searchRoles: Search roles
+    title: Role membership
+    unnamed: Unnamed role
   title:
-    create: Create template
-    edit: Edit template
+    create: Create user
+    edit: Edit user
 list:
   columns:
     actions: ""
     createdAt: Created
+    email: Email
+    enabled: Enabled
     handle: Handle
-    language: Language
-    meta:
-      short: Short name
+    name: Name
   filterForm:
     deleted:
-      label: deleted templates
+      label: deleted users
     excluded:
       label: Without
     exclusive:
       label: Only
-    handle:
-      label: Filter templates list
-      placeholder: Filter templates by handle
     inclusive:
       label: Including
-  loading: Loading templates
+    query:
+      label: Filter users list
+      placeholder: Filter users by name, email
+    suspended:
+      label: suspended users
+  loading: Loading users
   new: New
-  numFound: '{{count}} template found'
-  numFound_plural: '{{count}} templates found'
+  numFound: '{{count}} user found'
+  numFound_plural: '{{count}} users found'
   permissions: Permissions
-  title: Templates
+  title: Users
   yaml: YAML
