@@ -2,8 +2,11 @@
 errors:
   composeModuleNotFound: Modul compose nicht gefunden
   composeNamespaceNotFound: Namespace compose nicht gefunden
-  federationModuleNotFound: Modul Verbund nicht gefunden
-  moduleMappingExists: Modulzuordnung ist bereits vorhanden
+  invalidID: ungültige ID
   nodeNotFound: Knoten nicht vorhanden
-  notAllowedToMap: dieses Modul kann nicht zugeordnet werden
-  notFound: Modulzuordnung ist nicht vorhanden
+  notAllowedToCreate: Erstellen von Modulen ist nicht zulässig
+  notAllowedToManage: dieses Modul kann nicht verwaltet werden
+  notFound: Modul nicht vorhanden
+  notUnique: Knoten nicht eindeutig
+  requestParametersInvalid: Anforderungsparameter sind ungültig
+  staleData: alte Daten
