@@ -1,12 +1,33 @@
 ---
-template:
-  title: crwdns61489:0crwdne61489:0
-  form:
-    email:
-      label: crwdns61491:0crwdne61491:0
-      placeholder: crwdns61493:0crwdne61493:0
-    new-password:
-      label: crwdns61495:0crwdne61495:0
-      placeholder: crwdns61497:0crwdne61497:0
-    buttons:
-      change-password: crwdns61499:0crwdne61499:0
+list:
+  rules:
+    add: crwdns62689:0crwdne62689:0
+    addRole: crwdns62691:0crwdne62691:0
+    component:
+      operations:
+        grant: crwdns62693:0crwdne62693:0
+        sessionsSearch: crwdns62695:0crwdne62695:0
+        triggersSearch: crwdns62697:0crwdne62697:0
+        workflowCreate: crwdns62699:0crwdne62699:0
+        workflowsSearch: crwdns62701:0crwdne62701:0
+      type:
+        label: crwdns62703:0crwdne62703:0
+    loading: crwdns62705:0crwdne62705:0
+    noRole: crwdns62707:0crwdne62707:0
+    notAllowed: crwdns62709:0crwdne62709:0
+    submit: crwdns62711:0crwdne62711:0
+    tip1: crwdns62713:0crwdne62713:0
+    tip2: crwdns62715:0crwdne62715:0
+    title: crwdns62717:0crwdne62717:0
+    workflow:
+      operations:
+        delete: crwdns62719:0crwdne62719:0
+        execute: crwdns62721:0crwdne62721:0
+        read: crwdns62723:0crwdne62723:0
+        sessionsManage: crwdns62725:0crwdne62725:0
+        triggersManage: crwdns62727:0crwdne62727:0
+        undelete: crwdns62729:0crwdne62729:0
+        update: crwdns62731:0crwdne62731:0
+      type:
+        label: crwdns62733:0crwdne62733:0
+  title: crwdns62735:0crwdne62735:0
