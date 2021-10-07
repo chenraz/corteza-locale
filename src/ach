@@ -1,6 +1,13 @@
 ---
 errors:
-  failedToDownloadAttachment: 'crwdns61791:0{attachmentURL}crwdnd61791:0{err}crwdne61791:0'
-  failedToLoadUser: crwdns61793:0{recipient}crwdne61793:0
-  invalidReceipientFormat: crwdns61795:0{recipient}crwdne61795:0
-  noRecipients: crwdns61797:0crwdne61797:0
+  handleNotUnique: crwdns61769:0crwdne61769:0
+  invalidHandle: crwdns61771:0crwdne61771:0
+  invalidID: crwdns61773:0crwdne61773:0
+  notAllowedToCreate: crwdns61775:0crwdne61775:0
+  notAllowedToDelete: crwdns61777:0crwdne61777:0
+  notAllowedToRead: crwdns61779:0crwdne61779:0
+  notAllowedToSearch: crwdns61781:0crwdne61781:0
+  notAllowedToUndelete: crwdns61783:0crwdne61783:0
+  notAllowedToUpdate: crwdns61785:0crwdne61785:0
+  notFound: crwdns61787:0crwdne61787:0
+  staleData: crwdns61789:0crwdne61789:0
