@@ -1,14 +1,33 @@
 ---
-general:
-  error: crwdns66383:0crwdne66383:0
-  success: crwdns66385:0crwdne66385:0
-  warning: crwdns66387:0crwdne66387:0
-report:
-  createFailed: crwdns66389:0crwdne66389:0
-  created: crwdns66391:0crwdne66391:0
-  delete: crwdns66393:0crwdne66393:0
-  deleteFailed: crwdns66395:0crwdne66395:0
-  fetchFailed: crwdns66397:0crwdne66397:0
-  listFetchFailed: crwdns66399:0crwdne66399:0
-  updateFailed: crwdns66401:0crwdne66401:0
-  updated: crwdns66403:0crwdne66403:0
+application:
+  label: crwdns65817:0crwdne65817:0
+clickOpen: crwdns65819:0crwdne65819:0
+create: crwdns65821:0crwdne65821:0
+description:
+  label: crwdns65823:0crwdne65823:0
+  placeholder: crwdns65825:0crwdne65825:0
+disabled: crwdns65827:0crwdne65827:0
+edit: crwdns65829:0crwdne65829:0
+enabled:
+  label: crwdns65831:0crwdne65831:0
+icon:
+  label: crwdns65833:0crwdne65833:0
+  placeholder: crwdns65835:0crwdne65835:0
+logo:
+  label: crwdns65837:0crwdne65837:0
+  placeholder: crwdns65839:0crwdne65839:0
+name:
+  label: crwdns65841:0crwdne65841:0
+  placeholder: crwdns65843:0crwdne65843:0
+noResults: crwdns65845:0crwdne65845:0
+searchPlaceholder: crwdns65847:0crwdne65847:0
+setPermissions: crwdns65849:0crwdne65849:0
+slug:
+  description: crwdns65851:0crwdne65851:0
+  label: crwdns65853:0crwdne65853:0
+  placeholder: crwdns65855:0crwdne65855:0
+subtitle:
+  label: crwdns65857:0crwdne65857:0
+  placeholder: crwdns65859:0crwdne65859:0
+title: crwdns65861:0crwdne65861:0
+visit: crwdns65863:0crwdne65863:0
