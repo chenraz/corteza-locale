@@ -1,160 +1,123 @@
 ---
-defaultFieldValue: crwdns65273:0crwdne65273:0
-defaultValue: crwdns65275:0crwdne65275:0
-kind:
-  bool:
-    checkedValueLabel: crwdns65277:0crwdne65277:0
-    checkedValuePlaceholder: crwdns65279:0crwdne65279:0
-    label: crwdns65281:0crwdne65281:0
-    uncheckedValueLabel: crwdns65283:0crwdne65283:0
-    uncheckedValuePlaceholder: crwdns65285:0crwdne65285:0
+calculate: crwdns65053:0crwdne65053:0
+categories:
   dateTime:
-    dateOnly: crwdns65287:0crwdne65287:0
-    futureValuesOnly: crwdns65289:0crwdne65289:0
-    label: crwdns65291:0crwdne65291:0
-    outputFormat: 'crwdns65293:0crwdne65293:0'
-    outputFormatFootnote: crwdns65295:0{{0}}crwdne65295:0
-    pastValuesOnly: crwdns65297:0crwdne65297:0
-    relativeOutput: 'crwdns65299:0crwdne65299:0'
-    timeOnly: crwdns65301:0crwdne65301:0
-    warning:
-      futureValuesOnly: crwdns65303:0crwdne65303:0
-      pastValuesOnly: crwdns65305:0crwdne65305:0
-  email:
-    label: crwdns65307:0crwdne65307:0
-    preventToLink: crwdns65309:0crwdne65309:0
-  file:
-    label: crwdns65311:0crwdne65311:0
-    view:
-      gallery: crwdns65313:0crwdne65313:0
-      grid: crwdns65315:0crwdne65315:0
-      list: crwdns65317:0crwdne65317:0
-      maxSizeLabel: crwdns65319:0crwdne65319:0
-      mimetypesFootnote: 'crwdns65321:0crwdne65321:0'
-      mimetypesLabel: crwdns65323:0crwdne65323:0
-      modeFootnote: crwdns65325:0crwdne65325:0
-      modeLabel: crwdns65327:0crwdne65327:0
-      showName: crwdns65329:0crwdne65329:0
-      single: crwdns65331:0crwdne65331:0
+    earliest: crwdns65055:0crwdne65055:0
+    label: crwdns65057:0crwdne65057:0
+    latest: crwdns65059:0crwdne65059:0
+    modTime: crwdns65061:0crwdne65061:0
+    parseDuration: crwdns65063:0crwdne65063:0
+    parseISOTime: crwdns65065:0crwdne65065:0
+    strftime: crwdns65067:0crwdne65067:0
+  general:
+    description: crwdns65069:0crwdne65069:0
+    label: crwdns65071:0crwdne65071:0
   number:
-    exampleFormat: crwdns65333:0crwdne65333:0
-    exampleInput: crwdns65335:0crwdne65335:0
-    exampleResult: crwdns65337:0crwdne65337:0
-    examplesLabel: 'crwdns65339:0crwdne65339:0'
-    formatLabel: crwdns65341:0crwdne65341:0
-    formatPlaceholder: crwdns65343:0crwdne65343:0
-    label: crwdns65345:0crwdne65345:0
-    precisionLabel: crwdns65347:0crwdne65347:0
-    precisionPlaceholder: crwdns65349:0crwdne65349:0
-    prefixLabel: crwdns65351:0crwdne65351:0
-    prefixPlaceholder: crwdns65353:0crwdne65353:0
-    suffixLabel: crwdns65355:0crwdne65355:0
-    suffixPlaceholder: crwdns65357:0crwdne65357:0
-  record:
-    currentUnnamedModule: crwdns65359:0crwdne65359:0
-    label: crwdns65361:0crwdne65361:0
-    moduleLabel: crwdns65363:0crwdne65363:0
-    modulePlaceholder: crwdns65365:0crwdne65365:0
-    prefilterFootnote: crwdns65367:0{{0}}crwdnd65367:0{{1}}crwdnd65367:0{{2}}crwdne65367:0
-    prefilterLabel: crwdns65369:0crwdne65369:0
-    prefilterPlaceholder: crwdns65371:0crwdne65371:0
-    queryFieldsLabel: crwdns65373:0crwdne65373:0
-    recordFieldLabel: crwdns65375:0crwdne65375:0
-    recordFieldPlaceholder: crwdns65377:0crwdne65377:0
-    suggestionPlaceholder: crwdns65379:0crwdne65379:0
-  select:
-    label: crwdns65381:0crwdne65381:0
-    optionAdd: crwdns65383:0crwdne65383:0
-    optionLabelPlaceholder: crwdns65385:0crwdne65385:0
-    optionNotSelected: crwdns65387:0crwdne65387:0
-    optionRemove: crwdns65389:0crwdne65389:0
-    optionType:
-      default: crwdns65391:0crwdne65391:0
-      each: crwdns65393:0crwdne65393:0
-      label: crwdns65395:0crwdne65395:0
-      multiple: crwdns65397:0crwdne65397:0
-    optionValuePlaceholder: crwdns65399:0crwdne65399:0
-    optionsLabel: crwdns65401:0crwdne65401:0
-    placeholder: crwdns65403:0crwdne65403:0
+    ceil: crwdns65073:0crwdne65073:0
+    floor: crwdns65075:0crwdne65075:0
+    label: crwdns65077:0crwdne65077:0
+    max: crwdns65079:0crwdne65079:0
+    min: crwdns65081:0crwdne65081:0
+    rounds: crwdns65083:0crwdne65083:0
   string:
-    label: crwdns65405:0crwdne65405:0
-    multiLine: crwdns65407:0crwdne65407:0
-    richText: crwdns65409:0crwdne65409:0
-  url:
-    label: crwdns65411:0crwdne65411:0
-    preventToLink: crwdns65413:0crwdne65413:0
-    sshOnly: crwdns65415:0crwdne65415:0
-    trimHash: crwdns65417:0crwdne65417:0
-    trimQuestionMark: crwdns65419:0crwdne65419:0
-    trimToDomain: crwdns65421:0crwdne65421:0
-  user:
-    label: crwdns65423:0crwdne65423:0
-    na: crwdns65425:0crwdne65425:0
-    presetWithCurrentUser: crwdns65427:0crwdne65427:0
-    suggestionPlaceholder: crwdns65429:0crwdne65429:0
-    roles:
-      label: crwdns65431:0crwdne65431:0
-      placeholder: crwdns65433:0crwdne65433:0
-noPermission: crwdns65435:0crwdne65435:0
-options:
-  description:
-    label:
-      default: crwdns65437:0crwdne65437:0
-      edit: crwdns65439:0crwdne65439:0
-      view: crwdns65441:0crwdne65441:0
-    placeholder:
-      default: crwdns65443:0crwdne65443:0
-      edit: crwdns65445:0crwdne65445:0
-      view: crwdns65447:0crwdne65447:0
-    same: crwdns65449:0crwdne65449:0
-  hint:
-    label:
-      default: crwdns65451:0crwdne65451:0
-      edit: crwdns65453:0crwdne65453:0
-      view: crwdns65455:0crwdne65455:0
-    placeholder:
-      default: crwdns65457:0crwdne65457:0
-      edit: crwdns65459:0crwdne65459:0
-      view: crwdns65461:0crwdne65461:0
-    same: crwdns65463:0crwdne65463:0
-  multiDelimiter:
-    comma: crwdns65465:0crwdne65465:0
-    custom: crwdns65467:0crwdne65467:0
-    customLabel: crwdns65469:0crwdne65469:0
-    customPlaceholder: crwdns65471:0crwdne65471:0
-    label: crwdns65473:0crwdne65473:0
-    newline: crwdns65475:0crwdne65475:0
-sanitizers:
-  add: crwdns65477:0crwdne65477:0
-  description: crwdns65479:0crwdne65479:0
-  examples: crwdns65481:0crwdne65481:0
-  expression:
-    placeholder: crwdns65483:0crwdne65483:0
-  label: crwdns65485:0crwdne65485:0
-selector:
-  available: crwdns65487:0crwdne65487:0
-  footnote: crwdns65489:0crwdne65489:0
-  selectAll: crwdns65491:0crwdne65491:0
-  selected: crwdns65493:0crwdne65493:0
-  systemField: crwdns65495:0crwdne65495:0
-  unselectAll: crwdns65497:0crwdne65497:0
-system:
-  createdAt: crwdns65499:0crwdne65499:0
-  createdBy: crwdns65501:0crwdne65501:0
-  deletedAt: crwdns65503:0crwdne65503:0
-  deletedBy: crwdns65505:0crwdne65505:0
-  ownedBy: crwdns65507:0crwdne65507:0
-  updatedAt: crwdns65509:0crwdne65509:0
-  updatedBy: crwdns65511:0crwdne65511:0
-validators:
-  description: crwdns65513:0crwdne65513:0
-  disableBuiltIn: crwdns65515:0crwdne65515:0
-  error:
-    placeholder: crwdns65517:0crwdne65517:0
-  expression:
-    placeholder: crwdns65519:0crwdne65519:0
-  label: crwdns65521:0crwdne65521:0
-valueExpr:
-  description: crwdns65523:0crwdne65523:0
-  label: crwdns65525:0crwdne65525:0
-  placeholder: crwdns65527:0crwdne65527:0
+    format: crwdns65085:0crwdne65085:0
+    label: crwdns65087:0crwdne65087:0
+    longest: crwdns65089:0crwdne65089:0
+    shortest: crwdns65091:0crwdne65091:0
+    toLower: crwdns65093:0crwdne65093:0
+    toUpper: crwdns65095:0crwdne65095:0
+    trim: crwdns65097:0crwdne65097:0
+    trimLeft: crwdns65099:0crwdne65099:0
+    trimRight: crwdns65101:0crwdne65101:0
+example-description: crwdns65103:0crwdne65103:0
+examples: crwdns65105:0crwdne65105:0
+field: crwdns65107:0crwdne65107:0
+formatCategories:
+  dateTime:
+    A: crwdns65109:0crwdne65109:0
+    B: crwdns65111:0crwdne65111:0
+    C: crwdns65113:0crwdne65113:0
+    D: crwdns65115:0%mcrwdnd65115:0%dcrwdnd65115:0%ycrwdne65115:0
+    F: crwdns65117:0%Y-%m-%dcrwdne65117:0
+    H: crwdns65119:0crwdne65119:0
+    I: crwdns65121:0crwdne65121:0
+    M: crwdns65123:0crwdne65123:0
+    R: crwdns65125:0%H:%Mcrwdne65125:0
+    S-middle: crwdns65127:0crwdne65127:0
+    S-second: crwdns65129:0crwdne65129:0
+    T: crwdns65131:0%H:%M:%Scrwdne65131:0
+    U: crwdns65133:0crwdne65133:0
+    V: crwdns65135:0crwdne65135:0
+    W: crwdns65137:0crwdne65137:0
+    X: crwdns65139:0crwdne65139:0
+    "Y": crwdns65141:0crwdne65141:0
+    Z: crwdns65143:0crwdne65143:0
+    a: crwdns65145:0crwdne65145:0
+    b: crwdns65147:0crwdne65147:0
+    c: crwdns65149:0crwdne65149:0
+    d: crwdns65151:0crwdne65151:0
+    e: crwdns65153:0crwdne65153:0
+    j: crwdns65155:0crwdne65155:0
+    k: crwdns65157:0crwdne65157:0
+    l: crwdns65159:0crwdne65159:0
+    label: crwdns65161:0crwdne65161:0
+    m: crwdns65163:0crwdne65163:0
+    "n": |-
+      crwdns65165:0crwdne65165:0
+    p: crwdns65167:0crwdne65167:0
+    percent: crwdns65169:0crwdne65169:0
+    r: crwdns65171:0%I:%M:%Scrwdnd65171:0%pcrwdne65171:0
+    t: crwdns65173:0crwdne65173:0
+    u: crwdns65175:0crwdne65175:0
+    v: crwdns65177:0%ecrwdnd65177:0%bcrwdnd65177:0%Ycrwdne65177:0
+    w: crwdns65179:0crwdne65179:0
+    x: crwdns65181:0crwdne65181:0
+    "y": crwdns65183:0crwdne65183:0
+    z: crwdns65185:0crwdne65185:0
+  string:
+    E: crwdns65187:0crwdne65187:0
+    O: crwdns65189:0crwdne65189:0
+    X: crwdns65191:0crwdne65191:0
+    b: crwdns65193:0crwdne65193:0
+    binary: crwdns65195:0crwdne65195:0
+    d: crwdns65197:0crwdne65197:0
+    e: crwdns65199:0crwdne65199:0
+    f: crwdns65201:0crwdne65201:0
+    label: crwdns65203:0crwdne65203:0
+    o: crwdns65205:0crwdne65205:0
+    t: crwdns65207:0crwdne65207:0
+    v: crwdns65209:0crwdne65209:0
+    x: crwdns65211:0crwdne65211:0
+formatting-parameters:
+  description: crwdns65213:0crwdne65213:0
+  label: crwdns65215:0crwdne65215:0
+helper-functions:
+  description: crwdns65217:0crwdne65217:0
+  label: crwdns65219:0crwdne65219:0
+  note: 'crwdns65221:0crwdne65221:0'
+instructions: 'crwdns65223:0crwdne65223:0'
+operators:
+  all-new-values: crwdns65225:0crwdne65225:0
+  comparators: 'crwdns65227:0crwdne65227:0'
+  control-order: 'crwdns65229:0crwdne65229:0'
+  field-name: crwdns65231:0crwdne65231:0
+  location: 'crwdns65233:0crwdne65233:0'
+  logical: 'crwdns65235:0crwdne65235:0'
+  modifiers: 'crwdns65237:0crwdne65237:0'
+  more: 'crwdns65239:0crwdne65239:0'
+  new: crwdns65241:0crwdne65241:0
+  new-value: crwdns65243:0crwdne65243:0
+  new-value-with-comma: 'crwdns65245:0crwdne65245:0'
+  old: crwdns65247:0crwdne65247:0
+  old-value: crwdns65249:0crwdne65249:0
+  old-value-brackets: 'crwdns65251:0crwdne65251:0'
+  record: 'crwdns65253:0crwdne65253:0'
+  sanitizer: crwdns65255:0crwdne65255:0
+  sanitizers: 'crwdns65257:0crwdne65257:0'
+  validator: crwdns65259:0crwdne65259:0
+  validators: 'crwdns65261:0crwdne65261:0'
+  value: crwdns65263:0crwdne65263:0
+  value-expression: crwdns65265:0crwdne65265:0
+  value-expressions: 'crwdns65267:0crwdne65267:0'
+  values: crwdns65269:0crwdne65269:0
+write: crwdns65271:0crwdne65271:0
