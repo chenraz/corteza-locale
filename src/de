@@ -1,7 +1,12 @@
 ---
 errors:
   invalidID: ungültige ID
-  notAllowedToAssign: Erinnerungen können anderen Benutzern nicht zugewiesen werden
-  notAllowedToDismiss: Erinnerungen von anderen Benutzern können nicht abgewiesen werden
-  notAllowedToRead: Erinnerungen von anderen Benutzern können nicht gelesen werden
-  notFound: Erinnerung nicht gefunden
+  notAllowedToCreate: Erstellen von Berichten ist nicht zulässig
+  notAllowedToDelete: dieser Bericht kann nicht gelöscht werden
+  notAllowedToListReports: Berichte können nicht aufgelistet werden
+  notAllowedToRead: dieser Bericht kann nicht gelesen werden
+  notAllowedToRun: dieser Bericht kann nicht ausgeführt werden
+  notAllowedToSearch: "Berichte können nicht aufgelistet oder gesucht werden\n"
+  notAllowedToUndelete: dieser Bericht kann nicht wiederhergestellt werden
+  notAllowedToUpdate: dieser Bericht kann nicht aktualisiert werden
+  notFound: Bericht nicht gefunden
