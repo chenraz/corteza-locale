@@ -1,10 +1,17 @@
 ---
 template:
-  title: Avtorizirani klienti
-  list:
-    authorized-on: Avtoriziran
-    buttons:
-      revoke: Odvzemi dostop
-    empty: No authorized clients found
+  title: Spremeni geslo
+  form:
+    email:
+      label: E-mail
+      placeholder: email@domain.ltd
+    old-password:
+      label: Old password
+      placeholder: Vnesi staro geslo
+    new-password:
+      label: New password
+      placeholder: Vnesi novo geslo
+    button:
+      change-password: Spremeni gelo
 alerts:
-  removed: Client authorization removed
+  password-change-success: Password successfully changed.
