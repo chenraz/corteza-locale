@@ -1,13 +1,10 @@
 ---
 errors:
-  alreadyExists: crwdns61975:0crwdne61975:0
-  existsEndpoint: crwdns61977:0crwdne61977:0
-  invalidEndpoint: crwdns61979:0crwdne61979:0
-  invalidID: crwdns61981:0crwdne61981:0
-  notAllowedToCreate: crwdns61983:0crwdne61983:0
-  notAllowedToDelete: crwdns61985:0crwdne61985:0
-  notAllowedToExec: crwdns61987:0crwdne61987:0
-  notAllowedToRead: crwdns61989:0crwdne61989:0
-  notAllowedToUndelete: crwdns61991:0crwdne61991:0
-  notAllowedToUpdate: crwdns61993:0crwdne61993:0
-  notFound: crwdns61995:0crwdne61995:0
+  invalidID: crwdns61959:0crwdne61959:0
+  invalidRoute: crwdns61961:0crwdne61961:0
+  notAllowedToCreate: crwdns61963:0crwdne61963:0
+  notAllowedToDelete: crwdns61965:0crwdne61965:0
+  notAllowedToRead: crwdns61967:0crwdne61967:0
+  notAllowedToUndelete: crwdns61969:0crwdne61969:0
+  notAllowedToUpdate: crwdns61971:0crwdne61971:0
+  notFound: crwdns61973:0crwdne61973:0
