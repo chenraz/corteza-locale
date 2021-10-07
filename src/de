@@ -1,19 +1,10 @@
 ---
 template:
-  title: Ihr Profil
+  title: Link zum Zurücksetzen des Passworts anfordern
   form:
     email:
       label: E-Mail
       placeholder: email@domain.tld
-      resend-confirmation-link: Die E-Mail ist nicht verifiziert,, <a href="{{link}}?resend">den Bestätigungslink erneut sendenk.</a>
-    name:
-      label: Vollständiger Name
-      placeholder: Ihr Vollständiger Name
-    handle:
-      label: Handle
-      placeholder: Kurzname, Nickname oder Handle
     buttons:
-      submit: Profil Aktualisieren
-alerts:
-  profile-updated: Das Profil wurde erfolgreich aktualisiert.
-  profile-update-fail: Das Profil konnte aufgrund von Eingabefehlern nicht aktualisiert werden.
+      request: Link zum Zurücksetzen des Passworts per E-Mail anfordern
+  links: <a href="{{signup}}">Erstellen Sie einen neuen Account</a> oder <a href="{{login}}">melden Sie sich an</a>.
