@@ -1,77 +1,75 @@
 ---
 editor:
   info:
-    confirmEmail: Confirm email address
+    add: Add
+    api: Allow client access to Corteza API on behalf of user
+    choose-date: Choose a date
     createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
-    email: Email
-    handle: Handle
-    name: Full name
-    revokeAllSession: Revoke all active session
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Grundlegende Informationen
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
-  mfa:
-    TOTP:
-      disabled:
-        text: User did not configure TOTP protection.
-      enabled:
-        text: User configured TOTP protection auth mobile app.
-      remove:
-        label: Remove
-    emailOTP:
-      disable:
-        label: Disable
-      disabled:
-        text: |-
-          Email OTP protection is disabled for this user.
-          Email with the security code on each login will not be sent.
-      enable:
-        label: Enable
-      enabled:
-        text: |-
-          Email OTP protection is enabled for this user.
-          User will receive email with the security code on each login.
-    title: Multi-factor authentication
-  new: New
-  notifications:
-    membershipOK: Membership successfully  updated
-    passwordOK: Password successfully  changed
-    title: User updated
-    userInfoOK: User info successfully updated
-  password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match!
-    new: New password
-    title: Password
-    removePassword: Remove password
-  permissions: Permissions
-  roles:
-    add: Add
-    count: Roles ({{count}})
+    enabled:
+      disabledFootnote: Unable to disable the default client
+      label: Aktiviert
+    expiresAt:
+      description: If not defined the client has no expiration date
+      label: Expires at
+    grant:
+      authorization_code: Will be used to authenticate users (grant type = authorization_code)
+      client_credentials: Will be used to authenticate machines (grant type = client_credentials)
+    handle:
+      disabledFootnote: Unable to change the handle of the default auth client
+      label: Handle
+    name: Name
+    no-time: No time selected
+    profile: Allow client access to user's profile
+    redirectURI: Redirect URI's
     remove: Remove
     searchRoles: Search roles
-    title: Role membership
+    secret: Secret
+    security:
+      forbiddenRoles:
+        description: Roles from this list will be removed from security context when user authorizes this client
+        label: Forbidden roles ({{count}})
+      forcedRoles:
+        description: Roles from this list will be always added to security context when user authorizes this client
+        label: Forced roles ({{count}})
+      impersonateUser:
+        description: When authenticating with client credentials, act in the name of the impersonated user
+        label: Impersonate user
+      permittedRoles:
+        description: Only roles in this list will be added into security context when user authorizes this client
+        label: Permitted roles ({{count}})
+    title: Grundlegende Informationen
+    trusted:
+      description: When client is trusted users do not see authorization step
+      label: Trusted
+    undelete: Undelete
     unnamed: Unnamed role
+    updatedAt: Updated at
+    uri: URI
+    validFrom:
+      description: If not defined the client is valid until expiration
+      label: Valid from
+    generateCurl: Generate cURL snippet
+    hideCurl: Hide cURL snippet
+    cUrl: Generated cURL
+    testCurl: Test auth
+  new: New
+  permissions: Permissions
   title:
-    create: Create user
-    edit: Edit user
+    create: Create client
+    edit: Edit client
 list:
   columns:
     actions: ""
     createdAt: Erstellt
-    email: Email
     enabled: Aktiviert
     handle: Handle
-    name: Name
+    meta:
+      name: Name
   filterForm:
     deleted:
-      label: deleted users
+      label: deleted clients
     excluded:
       label: Without
     exclusive:
@@ -79,14 +77,12 @@ list:
     inclusive:
       label: Including
     query:
-      label: Filter users list
-      placeholder: Filter users by name, email
-    suspended:
-      label: suspended users
-  loading: Loading users
+      label: Filter clients list
+      placeholder: Filter clients
+  loading: Loading clients
   new: New
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
+  numFound: '{{count}} clients found'
+  numFound_plural: '{{count}} clients found'
   permissions: Permissions
-  title: Users
+  title: Auth Clients
   yaml: YAML
