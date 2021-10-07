@@ -1,54 +1,70 @@
 ---
 editor:
-  info:
-    archive: crwdns63849:0crwdne63849:0
-    archivedAt: crwdns63851:0crwdne63851:0
-    createdAt: crwdns63853:0crwdne63853:0
-    delete: crwdns63855:0crwdne63855:0
-    deletedAt: crwdns63857:0crwdne63857:0
-    handle: crwdns63859:0crwdne63859:0
-    name: crwdns63861:0crwdne63861:0
-    title: crwdns63863:0crwdne63863:0
-    unarchive: crwdns63865:0crwdne63865:0
-    undelete: crwdns63867:0crwdne63867:0
-    updatedAt: crwdns63869:0crwdne63869:0
-  members:
-    add: crwdns63871:0crwdne63871:0
-    count: crwdns63873:0{{count}}crwdne63873:0
-    remove: crwdns63875:0crwdne63875:0
-    searchUsers: crwdns63877:0crwdne63877:0
-    title: crwdns63879:0crwdne63879:0
-    unnamed: crwdns63881:0crwdne63881:0
-  new: crwdns63883:0crwdne63883:0
-  permissions: crwdns63885:0crwdne63885:0
-  title:
-    create: crwdns63887:0crwdne63887:0
-    edit: crwdns63889:0crwdne63889:0
-list:
-  columns:
-    actions: "crwdns63891:0crwdne63891:0"
-    createdAt: crwdns63893:0crwdne63893:0
-    enabled: crwdns63895:0crwdne63895:0
-    handle: crwdns63897:0crwdne63897:0
-    name: crwdns63899:0crwdne63899:0
-  filterForm:
-    archived:
-      label: crwdns63901:0crwdne63901:0
-    deleted:
-      label: crwdns63903:0crwdne63903:0
-    excluded:
-      label: crwdns63905:0crwdne63905:0
-    exclusive:
-      label: crwdns63907:0crwdne63907:0
-    inclusive:
-      label: crwdns63909:0crwdne63909:0
-    query:
-      label: crwdns63911:0crwdne63911:0
-      placeholder: crwdns63913:0crwdne63913:0
-  loading: crwdns63915:0crwdne63915:0
-  new: crwdns63917:0crwdne63917:0
-  numFound: 'crwdns63919:0{{count}}crwdne63919:0'
-  numFound_plural: 'crwdns63921:0{{count}}crwdne63921:0'
-  permissions: crwdns63923:0crwdne63923:0
-  title: crwdns63925:0crwdne63925:0
-  yaml: crwdns63927:0crwdne63927:0
+  auth:
+    internal:
+      enabled: crwdns63931:0crwdne63931:0
+      password-reset:
+        enabled: crwdns63933:0crwdne63933:0
+      signup:
+        email-confirmation-required: crwdns63935:0crwdne63935:0
+        enabled: crwdns63937:0crwdne63937:0
+        split-credentials-check:
+          description: 'crwdns63939:0crwdne63939:0'
+          label: crwdns63941:0crwdne63941:0
+      title: crwdns63943:0crwdne63943:0
+    mail:
+      from-address: crwdns63945:0crwdne63945:0
+      from-name: crwdns63947:0crwdne63947:0
+      title: crwdns63949:0crwdne63949:0
+      validate-email: crwdns63951:0crwdne63951:0
+    mfa:
+      TOTP:
+        enabled: crwdns63953:0crwdne63953:0
+        enforced: crwdns63955:0crwdne63955:0
+        issuer:
+          description: crwdns63957:0crwdne63957:0
+          label: crwdns63959:0crwdne63959:0
+      emailOTP:
+        enabled: crwdns63961:0crwdne63961:0
+        enforced: crwdns63963:0crwdne63963:0
+        expires:
+          description: crwdns63965:0crwdne63965:0
+          label: crwdns63967:0crwdne63967:0
+      title: crwdns63969:0crwdne63969:0
+    title: crwdns63971:0crwdne63971:0
+    url: crwdns63973:0crwdne63973:0
+  external:
+    addOidcProvider: crwdns63975:0crwdne63975:0
+    certificate: crwdns63977:0crwdne63977:0
+    clientKey: crwdns63979:0crwdne63979:0
+    clientSecret: crwdns63981:0crwdne63981:0
+    enabled: crwdns63983:0crwdne63983:0
+    facebook: crwdns63985:0crwdne63985:0
+    github: crwdns63987:0crwdne63987:0
+    google: crwdns63989:0crwdne63989:0
+    handle: crwdns63991:0crwdne63991:0
+    issuer: crwdns63993:0crwdne63993:0
+    issuerHint: crwdns63995:0crwdne63995:0
+    issuerPlaceholder: crwdns63997:0crwdne63997:0
+    linkedin: crwdns63999:0crwdne63999:0
+    oidc: crwdns64001:0crwdne64001:0
+    providerEnabled: crwdns64003:0crwdne64003:0
+    saml:
+      cert: crwdns64005:0crwdne64005:0
+      cert-key: crwdns64007:0crwdne64007:0
+      desc:
+        cert: crwdns64009:0crwdne64009:0
+        cert-key: crwdns64011:0crwdne64011:0
+        idp:
+          ident-handle: crwdns64013:0crwdne64013:0
+          ident-identifier: crwdns64015:0crwdne64015:0
+          ident-name: crwdns64017:0crwdne64017:0
+      idp:
+        ident-handle: crwdns64019:0crwdne64019:0
+        ident-identifier: crwdns64021:0crwdne64021:0
+        ident-name: crwdns64023:0crwdne64023:0
+        title: crwdns64025:0crwdne64025:0
+        url: crwdns64027:0crwdne64027:0
+      title: crwdns64029:0crwdne64029:0
+    title: crwdns64031:0crwdne64031:0
+  title: crwdns64033:0crwdne64033:0
