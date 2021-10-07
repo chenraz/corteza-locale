@@ -1,6 +1,10 @@
 ---
 template:
-  title: Disable two-factor authentication with TOTP
-  instructions: Disable by entering existing code.
-  button:
-    remove: Remove
+  title: Authorized clients
+  list:
+    authorized-on: Authorized on
+    buttons:
+      revoke: Revoke access
+    empty: No authorized clients found
+alerts:
+  removed: Client authorization removed
