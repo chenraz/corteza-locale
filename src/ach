@@ -1,17 +1,24 @@
 ---
 template:
-  title: crwdns61533:0crwdne61533:0
-  list:
-    current: crwdns61535:0crwdne61535:0
-    authorized-on: crwdns61537:0crwdne61537:0
-    same-machine: crwdns61539:0crwdne61539:0
-    ip-address: crwdns61541:0crwdne61541:0
-    same-browser: crwdns61543:0crwdne61543:0
-    browser: crwdns61545:0crwdne61545:0
-    expires: crwdns61547:0crwdne61547:0
-    expired: crwdns61549:0crwdne61549:0
-    today: crwdns61551:0crwdne61551:0
-    tomorrow: crwdns61553:0crwdne61553:0
-    soon: crwdns61555:0{{days}}crwdne61555:0
-    delete: crwdns61557:0crwdne61557:0
-  delete-all: crwdns61559:0crwdne61559:0
+  title: crwdns61561:0crwdne61561:0
+  form:
+    email:
+      label: crwdns66599:0crwdne66599:0
+      placeholder: crwdns61565:0crwdne61565:0
+    password:
+      label: crwdns66601:0crwdne66601:0
+      placeholder: crwdns61569:0crwdne61569:0
+    name:
+      label: crwdns61571:0crwdne61571:0
+      placeholder: crwdns61573:0crwdne61573:0
+    nickname:
+      label: crwdns61575:0crwdne61575:0
+      placeholder: crwdns61577:0crwdne61577:0
+    button:
+      sign-up: crwdns61579:0crwdne61579:0
+  log-in: crwdns61581:0{{link}}crwdne61581:0
+alerts:
+  signup-successful: crwdns61583:0crwdne61583:0
+  email-confirmed-logged-in: crwdns61585:0crwdne61585:0
+  invalid-expired-token: crwdns66603:0crwdne66603:0
+  signup-disabled: crwdns61589:0crwdne61589:0
