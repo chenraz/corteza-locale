@@ -1,2 +1,3 @@
 ---
-version: verzija {{version}}
+template:
+  title: Strežniška napaka
