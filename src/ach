@@ -1,7 +1,14 @@
 ---
 errors:
-  invalidID: crwdns62127:0crwdne62127:0
-  notAllowedToAssign: crwdns62129:0crwdne62129:0
-  notAllowedToDismiss: crwdns62131:0crwdne62131:0
-  notAllowedToRead: crwdns62133:0crwdne62133:0
-  notFound: crwdns62135:0crwdne62135:0
+  alreadyExists: crwdns62103:0crwdne62103:0
+  invalidConsumer: crwdns62105:0crwdne62105:0
+  invalidID: crwdns62107:0crwdne62107:0
+  notAllowedToCreate: crwdns62109:0crwdne62109:0
+  notAllowedToDelete: crwdns62111:0crwdne62111:0
+  notAllowedToRead: crwdns62113:0crwdne62113:0
+  notAllowedToReadFrom: crwdns62115:0crwdne62115:0
+  notAllowedToSearch: crwdns62117:0crwdne62117:0
+  notAllowedToUndelete: crwdns62119:0crwdne62119:0
+  notAllowedToUpdate: crwdns62121:0crwdne62121:0
+  notAllowedToWriteTo: crwdns62123:0crwdne62123:0
+  notFound: crwdns62125:0crwdne62125:0
