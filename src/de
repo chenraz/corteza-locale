@@ -1,71 +1,54 @@
 ---
 editor:
-  content:
-    editor:
-      unsupported: Unsupported editor
-    partial: Partial template
-    preview:
-      html: Preview HTML
-      pdf: Preview PDF
-      title: Preview output
-    title: Template content
-    toolbox:
-      partials: Partials
-      samples:
-        defaultHTML: Default HTML
-        label: Samples
-      snippets:
-        funcCall: Call a function
-        interpolate: Interpolate value
-        iterator: Iterate over a set
-        label: Snippets
-      title: Toolbox
   info:
-    contentType:
-      text_html: HTML
-      text_plain: Plain text
+    archive: Archive
+    archivedAt: Archived at
     createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
     handle: Handle
-    meta:
-      description: Beschreibung
-      short: Short name
-    partial: Partial template
-    partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
+    name: Role name
     title: Grundlegende Informationen
-    type: Template type
+    unarchive: Unarchive
     undelete: Undelete
     updatedAt: Updated at
+  members:
+    add: Add
+    count: Members ({{count}})
+    remove: Remove
+    searchUsers: Search users
+    title: Role members
+    unnamed: Unnamed user
   new: New
   permissions: Permissions
   title:
-    create: Create template
-    edit: Edit template
+    create: Create role
+    edit: Edit role
 list:
   columns:
     actions: ""
     createdAt: Erstellt
+    enabled: Aktiviert
     handle: Handle
-    language: Language
-    meta:
-      short: Short name
+    name: Name
   filterForm:
+    archived:
+      label: archived roles
     deleted:
-      label: deleted templates
+      label: deleted roles
     excluded:
       label: Without
     exclusive:
       label: Only
-    handle:
-      label: Filter templates list
-      placeholder: Filter templates by handle
     inclusive:
       label: Including
-  loading: Loading templates
+    query:
+      label: Filter roles list
+      placeholder: Filter roles by name
+  loading: Loading roles
   new: New
-  numFound: '{{count}} template found'
-  numFound_plural: '{{count}} templates found'
+  numFound: '{{count}} role found'
+  numFound_plural: '{{count}} roles found'
   permissions: Permissions
-  title: Templates
+  title: Roles
   yaml: YAML
