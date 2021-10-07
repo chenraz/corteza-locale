@@ -1,8 +1,5 @@
-uk:
-  clickToRetry: Click to retry
-  downloadForAll: Download to see all pages
-  firstPagePreview: First page preview
-  loading: Loading
-  noPages: This document is empty
-  pageLoadFailed: Page failed to load
-  pageLoading: '$t(preview.pdf.loading)'
+---
+namespaceList: Namespace list
+noPages: No pages
+pickNamespace: Select a namespace
+searchPlaceholder: Search pages...
