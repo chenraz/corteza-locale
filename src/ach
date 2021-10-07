@@ -1,24 +1,14 @@
 ---
+general:
+  error: crwdns66383:0crwdne66383:0
+  success: crwdns66385:0crwdne66385:0
+  warning: crwdns66387:0crwdne66387:0
 report:
-  all: crwdns66405:0crwdne66405:0
-  specific: crwdns66407:0{{target}}crwdne66407:0
-resetBack: crwdns66409:0{{current}}crwdne66409:0
-saveChanges: crwdns66411:0crwdne66411:0
-setFor: crwdns66413:0{{target}}crwdne66413:0
-system-report:
-  delete:
-    description: "crwdns66415:0crwdne66415:0"
-    specific: crwdns66417:0{{target}}crwdne66417:0
-    title: crwdns66419:0crwdne66419:0
-  read:
-    description: "crwdns66421:0crwdne66421:0"
-    specific: crwdns66423:0{{target}}crwdne66423:0
-    title: crwdns66425:0crwdne66425:0
-  run:
-    description: "crwdns66427:0crwdne66427:0"
-    specific: crwdns66429:0{{target}}crwdne66429:0
-    title: crwdns66431:0crwdne66431:0
-  update:
-    description: "crwdns66433:0crwdne66433:0"
-    specific: crwdns66435:0{{target}}crwdne66435:0
-    title: crwdns66437:0crwdne66437:0
+  createFailed: crwdns66389:0crwdne66389:0
+  created: crwdns66391:0crwdne66391:0
+  delete: crwdns66393:0crwdne66393:0
+  deleteFailed: crwdns66395:0crwdne66395:0
+  fetchFailed: crwdns66397:0crwdne66397:0
+  listFetchFailed: crwdns66399:0crwdne66399:0
+  updateFailed: crwdns66401:0crwdne66401:0
+  updated: crwdns66403:0crwdne66403:0
