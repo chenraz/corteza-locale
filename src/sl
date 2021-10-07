@@ -1,21 +1,33 @@
 ---
-errors:
-  emailNotUnique: email not unique
-  handleNotUnique: handle not unique
-  invalidEmail: Invalid email! {{resource}}
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create users
-  notAllowedToCreateSystem: not allowed to create system users
-  notAllowedToDelete: not allowed to delete this user
-  notAllowedToListUsers: not allowed to list users
-  notAllowedToRead: not allowed to read this user
-  notAllowedToSearch: not allowed to list or search users
-  notAllowedToSuspend: not allowed to suspend this user
-  notAllowedToUndelete: not allowed to undelete this user
-  notAllowedToUnsuspend: not allowed to unsuspend this user
-  notAllowedToUpdate: not allowed to update this user
-  notAllowedToUpdateSystem: not allowed to update system users
-  notFound: user not found
-  passwordNotSecure: provided password is not secure; use longer password with more non-alphanumeric character
-  usernameNotUnique: username not unique
+list:
+  rules:
+    add: Add role
+    addRole: Add new role
+    component:
+      operations:
+        grant: Grant permissions on automation
+        sessionsSearch: Search sessions
+        triggersSearch: Search triggers
+        workflowCreate: Create new workflow
+        workflowsSearch: Search workflows
+      type:
+        label: Automation
+    loading: Loading permissions
+    noRole: No role selected
+    notAllowed: Not allowed to set permissions
+    submit: Submit
+    tip1: Click on permission/role cell to allow a specific operation
+    tip2: Use Alt-Click to set explicit deny on operation
+    title: List of rules
+    workflow:
+      operations:
+        delete: Delete workflow
+        execute: Execute workflow
+        read: Read workflow
+        sessionsManage: Manage workflow sessions
+        triggersManage: Manage workflow triggers
+        undelete: Undelete workflow
+        update: Update workflow
+      type:
+        label: Workflow
+  title: Automation permissions
