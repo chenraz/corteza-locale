@@ -1,20 +1,17 @@
 ---
-build:
-  addBlock: Add block
-  selectBlockFootnote: Some types might be disabled for non-record pages
-  selectBlockTitle: Select type of the new block
-createLabel: Create page
-edit:
-  create: Create page
-  edit: Edit page
-  pageDescription: Page description
-  visible: Page visibility
-import: 'Import page(s):'
-instructions: Drag and drop pages to adjust the order and hierarchy.
-invalid: Invalid configuration
-newPlaceholder: Page title
-noBlock: No block added yet
-notVisible: Hidden
-title: List of Pages
-view: View
-visible: Visible
+errors:
+  disabled: disabled workflow or trigger
+  handleNotUnique: workflow handle not unique
+  invalidHandle: invalid handle
+  invalidID: invalid ID
+  notAllowedToCreate: not allowed to create workflows
+  notAllowedToDelete: not allowed to delete this workflow
+  notAllowedToExecute: not allowed to execute this workflow
+  notAllowedToExecuteCorredorStep: not allowed to run corredorExec function, corredor is disabled
+  notAllowedToRead: not allowed to read this workflow
+  notAllowedToSearch: not allowed to search or list workflows
+  notAllowedToUndelete: not allowed to undelete this workflow
+  notAllowedToUpdate: not allowed to update this workflow
+  notFound: workflow not found
+  staleData: stale data
+  unknownWorkflowStep: unknown workflow step
