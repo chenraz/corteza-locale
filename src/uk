@@ -1,3 +1,7 @@
 ---
-navGroup:
-  label: User interface
+list:
+  columns:
+    events: Triggered on events
+    label: Label
+    name: Name
+  title: Compose Automation
