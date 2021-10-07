@@ -1,90 +1,87 @@
 ---
-allRecords:
-  create:
-    title: Create record for module "{{name}}"
+label:
+  actions: Actions
+  active: Active
+  add: Add
+  addNew: Add new
+  addValue: Neue Variable hinzufügen
+  attachmentFileInfo: '(Dateigöße {{0}}, hochgeladen am {{1}})'
+  attributes: Attributes
+  back: Back
+  backWithoutSave: Back (without saving changes)
+  browse: Browse
+  buttons: Buttons
+  cancel: Cancel
+  clone: Clone
+  close: Close
+  create: Create
+  delete: Delete
+  description: Beschreibung
+  download: Download
+  dropFiles: Click or drop files here to upload
+  edit: Edit
+  enabled: Aktiviert
+  export: Export
+  fileTypeNotAllowed: File type not allowed
+  uploadError: 'Issue with file upload: "{{message}}"'
+  general: General
+  handle: Handle
+  here: here
+  import: Import
+  importPlaceholder: Upload files to import
+  label: Label
+  loading: Loading
+  makeDefault: Make default
+  moduleName: Module name
+  multi: Multi value
+  name: Name
+  next: Next
+  "no": "No"
+  noHandle: No handle
+  none: None
+  ok: Ok
+  openBookmarks: Open bookmarks
+  pageBuilder: Page builder
+  permissions: Permissions
+  private: Private
+  processing: Processing...
+  recordPage: Record page
+  remove: Remove
+  removeDefault: Remove default
+  required: Required
+  save: Save
+  saveAndClose: Save and close
+  search: Search
+  status: Status
+  timeHour: '{{t}}h'
+  timeMinute: '{{t}}min'
+  title: Title
+  type: Type
+  updatedAt: '$t(field.system.updatedAt)'
+  uploading: Uploading
+  urlPlaceholder: https://example.tld
+  validation: Validation
+  value: Value
+  view: View
+  welcome: Welcome!
+  "yes": "Yes"
+placeholder:
+  handle: handle (a - z, 0 - 9, underscore, dash)
+  sample: Sample
+reminder:
+  add: Add a new reminder
+  dismiss: Dismiss
   edit:
-    title: Edit record for module "{{name}}"
-  label: All records
-  list:
-    title: All records for module "{{name}}"
-  selectFields:
-    title: Configure columns
-  view:
-    title: View record for module "{{name}}"
-createLabel: New Module
-edit:
-  create: Create module
-  edit: Edit module
-  federationSettings:
-    downstream:
-      allFields: All Fields
-      description: 'Match federated fields with existing ones:'
-      title: Map
-    errorFetchingData: Error fetching server data
-    general:
-      receive: Receive new records from another organization (downstream)
-      send: Send new records to the federated network (upstream)
-      title: General
-    noNodes: No federated servers available
-    noPermission: No permission to manage exposed module
-    pickModule: Pick a federated module
-    pickModuleField: Pick a module field
-    pickServer: Pick a federated server
-    specificTitle: Federation Settings ({{handle}})
-    title: Federation Settings
-    upstream:
-      allFields: All Fields
-      description: Select the fields you want to share with the selected network
-      title: Expose
-  fieldPermissions: Field permissions
-  manageRecordFields: Manage record fields
-  moduleFieldSettings: Module field settings
-  moduleInfo: Module info
-  newField: Add new field
-  recordPermissions: Record permissions
-  reorderFields: Reorder fields
-  specificFieldSettings: Field settings ({{name}})
-  steps:
-    recordList: Page with record list
-    recordPage: Record page
-  systemFields: 'System fields:'
-  tooltip:
-    attributes: Select if the field can hold multiple values, if it's required field or if contains sensitive data
-    name: Must be a-z/A-Z, 0-9 or underscore
-    private: Sensitive data
-    required: Required field
-    title: The name displayed in form input / data lists
-federated: Federated
-fieldKinds:
-  Bool:
-    label: Checkbox (Y/N)
-  DateTime:
-    label: Date and time
-  Email:
-    label: Email input
-  File:
-    label: File upload
-  Number:
-    label: Number input
-  Record:
-    label: Record selector
-  Select:
-    label: Select / dropdown
-  String:
-    label: Text input (string)
-  Url:
-    label: URL input
-  User:
-    label: User selector
-forModule:
-  recordList: Record List for module
-  recordListPage: Record List page for module
-  recordPage: Record page for module
-import: Module import
-newLabel: Module Name *
-newPlaceholder: Name used on the list of modules
-recordPage:
-  create: Create record page
-  edit: Page builder
-searchPlaceholder: Type here to search all modules in this namespace
-title: List of Modules
+    assigneeLabel: Assignee
+    assigneePlaceholder: Myself (default)
+    notesLabel: Notes
+    notesPlaceholder: Notes
+    remindAtLabel: Notify me
+    remindAtNone: Never
+    titleLabel: Title
+    titlePlaceholder: Title
+  listLabel: Reminders
+  routesTo: 'Includes link to:'
+  snooze: Snooze
+tooltip:
+  dragAndDrop: Drag and drop to change order
