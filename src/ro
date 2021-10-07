@@ -1,15 +1,19 @@
 ---
 template:
-  title: Authorize
+  title: Your profile
   form:
-    greeting-paragraph: Hello
-    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    email:
+      label: Email
+      placeholder: email@domain.ltd
+      resend-confirmation-link: Email is not verified, <a href="{{link}}?resend">resend confirmation link.</a>
+    name:
+      label: Full name
+      placeholder: Your full name
+    handle:
+      label: Handle
+      placeholder: Short name, nickname or handle
     buttons:
-      allow: Allow
-      deny: Deny
-  links:
-    mistake: If this is a mistake, please <a href="{{link}}">log out</a>.
-  errors:
-    invalid-user: Cannot continue with unauthorized email, visit <a href="{{link}}">your profile</a> and resolve the issue.
+      submit: Update profile
 alerts:
-  denied: cannot authorize {{client}}, no permissions.
+  profile-updated: Profile successfully updated.
+  profile-update-fail: Could not update profile due to input errors
