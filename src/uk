@@ -1,4 +1,10 @@
 ---
 template:
-  log-out: Logout successful.
-  log-in: Click here to <a href="{{link}}">log in</a>.
+  title: Authorized clients
+  list:
+    authorized-on: Authorized on
+    buttons:
+      revoke: Revoke access
+    empty: No authorized clients found
+alerts:
+  removed: Client authorization removed
