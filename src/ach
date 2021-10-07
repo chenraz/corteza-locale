@@ -1,36 +1,11 @@
 ---
-automationWorkflow:
-  all: crwdns66455:0crwdne66455:0
-  operations:
-    delete:
-      description: 'crwdns66457:0crwdne66457:0'
-      specific: crwdns66459:0crwdne66459:0
-      title: crwdns66461:0crwdne66461:0
-    execute:
-      description: 'crwdns66463:0crwdne66463:0'
-      specific: crwdns66465:0crwdne66465:0
-      title: crwdns66467:0crwdne66467:0
-    read:
-      description: 'crwdns66469:0crwdne66469:0'
-      specific: crwdns66471:0crwdne66471:0
-      title: crwdns66473:0crwdne66473:0
-    sessionsManage:
-      description: 'crwdns66475:0crwdne66475:0'
-      specific: crwdns66477:0crwdne66477:0
-      title: crwdns66479:0crwdne66479:0
-    triggersManage:
-      description: 'crwdns66481:0crwdne66481:0'
-      specific: crwdns66483:0crwdne66483:0
-      title: crwdns66485:0crwdne66485:0
-    undelete:
-      description: 'crwdns66487:0crwdne66487:0'
-      specific: crwdns66489:0crwdne66489:0
-      title: crwdns66491:0crwdne66491:0
-    update:
-      description: 'crwdns66493:0crwdne66493:0'
-      specific: crwdns66495:0crwdne66495:0
-      title: crwdns66497:0crwdne66497:0
-  specific: crwdns66499:0{{target}}crwdne66499:0
-resetBack: crwdns66501:0{{current}}crwdne66501:0
-saveChanges: crwdns66503:0crwdne66503:0
-setFor: crwdns66505:0{{target}}crwdne66505:0
+help:
+  documentation: crwdns66367:0crwdne66367:0
+  feedback: crwdns66369:0crwdne66369:0
+  forum: crwdns66371:0crwdne66371:0
+  version: 'crwdns66373:0crwdne66373:0'
+userSettings:
+  changePassword: crwdns66375:0crwdne66375:0
+  loggedInAs: crwdns66377:0{{user}}crwdne66377:0
+  logout: crwdns66379:0crwdne66379:0
+  profile: crwdns66381:0crwdne66381:0
