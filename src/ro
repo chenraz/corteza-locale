@@ -1,3 +1,4 @@
 ---
 errors:
-  notAllowedToSetPermissions: not allowed to set permissions
+  unauthorized: unauthorized
+  unauthorizedScope: unauthorized scope
