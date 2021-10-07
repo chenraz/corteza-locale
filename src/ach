@@ -1,46 +1,69 @@
 ---
 list:
+  title: 'crwdns63311:0crwdne63311:0'
+  new: 'crwdns63313:0crwdne63313:0'
+  permissions: 'crwdns63315:0crwdne63315:0'
+  yaml: 'crwdns63317:0crwdne63317:0'
+  loading: 'crwdns63319:0crwdne63319:0'
+  numFound: 'crwdns63321:0{{count}}crwdne63321:0'
+  numFound_plural: 'crwdns63323:0{{count}}crwdne63323:0'
+  filterForm:
+    query:
+      label: 'crwdns63325:0crwdne63325:0'
+      placeholder: 'crwdns63327:0crwdne63327:0'
+    excluded:
+      label: 'crwdns63329:0crwdne63329:0'
+    inclusive:
+      label: 'crwdns63331:0crwdne63331:0'
+    exclusive:
+      label: 'crwdns63333:0crwdne63333:0'
+    deleted:
+      label: 'crwdns63335:0crwdne63335:0'
   columns:
-    action: crwdns63227:0crwdne63227:0
-    actor: crwdns63229:0crwdne63229:0
-    description: crwdns63231:0crwdne63231:0
-    requestOrigin: crwdns63233:0crwdne63233:0
-    resource: crwdns63235:0crwdne63235:0
-    severity: crwdns63237:0crwdne63237:0
-    timestamp: crwdns63239:0crwdne63239:0
-  details:
-    id: 'crwdns63241:0crwdne63241:0'
-    header: 'crwdns63243:0crwdne63243:0'
-    timestamp: 'crwdns63245:0crwdne63245:0'
-    requestOrigin: 'crwdns63247:0crwdne63247:0'
-    requestID: 'crwdns63249:0crwdne63249:0'
-    actorIPAddr: 'crwdns63251:0crwdne63251:0'
-    actor: 'crwdns63253:0crwdne63253:0'
-    actorID: 'crwdns63255:0crwdne63255:0'
-    severity: 'crwdns63257:0crwdne63257:0'
-    resource: 'crwdns63259:0crwdne63259:0'
-    action: 'crwdns63261:0crwdne63261:0'
-    headerAdditional: 'crwdns63263:0crwdne63263:0'
-    description: 'crwdns63265:0crwdne63265:0'
-    error: 'crwdns63267:0crwdne63267:0'
-  severity:
-    emergency: 'crwdns63269:0crwdne63269:0'
-    alert: 'crwdns63271:0crwdne63271:0'
-    critical: 'crwdns63273:0crwdne63273:0'
-    error: 'crwdns63275:0crwdne63275:0'
-    warning: 'crwdns63277:0crwdne63277:0'
-    notice: 'crwdns63279:0crwdne63279:0'
-    info: 'crwdns63281:0crwdne63281:0'
-    debug: 'crwdns63283:0crwdne63283:0'
-  filter:
-    action: crwdns63285:0crwdne63285:0
-    actor: crwdns63287:0crwdne63287:0
-    choose-date: crwdns63289:0crwdne63289:0
-    from: crwdns63291:0crwdne63291:0
-    no-time: crwdns63293:0crwdne63293:0
-    resource: crwdns63295:0crwdne63295:0
-    search: crwdns63297:0crwdne63297:0
-    to: crwdns63299:0crwdne63299:0
-    today: crwdns63301:0crwdne63301:0
-  loadOlder: crwdns63303:0crwdne63303:0
-  title: crwdns63305:0crwdne63305:0
+    endpoint: 'crwdns63337:0crwdne63337:0'
+    createdAt: 'crwdns63339:0crwdne63339:0'
+    enabled: 'crwdns63341:0crwdne63341:0'
+    actions: 'crwdns63343:0crwdne63343:0'
+editor:
+  title: 'crwdns63345:0crwdne63345:0'
+  new: 'crwdns63347:0crwdne63347:0'
+  permissions: 'crwdns63349:0crwdne63349:0'
+  info:
+    title: 'crwdns63351:0crwdne63351:0'
+    id: 'crwdns63353:0crwdne63353:0'
+    endpoint: 'crwdns63355:0crwdne63355:0'
+    method: 'crwdns63357:0crwdne63357:0'
+    enabled: 'crwdns63359:0crwdne63359:0'
+    delete: 'crwdns63361:0crwdne63361:0'
+    undelete: 'crwdns63363:0crwdne63363:0'
+    deletedAt: 'crwdns63365:0crwdne63365:0'
+    updatedAt: 'crwdns63367:0crwdne63367:0'
+    createdAt: 'crwdns63369:0crwdne63369:0'
+    validEndpoint: 'crwdns63371:0crwdne63371:0'
+  filters:
+    title: 'crwdns63373:0crwdne63373:0'
+    modal:
+      title: 'crwdns63375:0crwdne63375:0'
+      ok: 'crwdns63377:0crwdne63377:0'
+      statusActive: 'crwdns63379:0crwdne63379:0'
+      statusDisabled: 'crwdns63381:0crwdne63381:0'
+    step_title:
+      prefilter: 'crwdns63383:0crwdne63383:0'
+      processer: 'crwdns63385:0crwdne63385:0'
+      postfilter: 'crwdns63387:0crwdne63387:0'
+    list:
+      remove: 'crwdns63389:0crwdne63389:0'
+      filters: 'crwdns63391:0crwdne63391:0'
+      status: 'crwdns63393:0crwdne63393:0'
+      actions: 'crwdns63395:0crwdne63395:0'
+      active: 'crwdns63397:0crwdne63397:0'
+      noFiltersMsg: 'crwdns63399:0crwdne63399:0'
+    labels:
+      expr: 'crwdns63401:0crwdne63401:0'
+      location: 'crwdns63403:0crwdne63403:0'
+      workflow: 'crwdns63405:0crwdne63405:0'
+      status: 'crwdns63407:0crwdne63407:0'
+    add: 'crwdns63409:0crwdne63409:0'
+    addFilter: 'crwdns63411:0crwdne63411:0'
+    params: 'crwdns63413:0crwdne63413:0'
+    filterListEmpty: 'crwdns63415:0crwdne63415:0'
