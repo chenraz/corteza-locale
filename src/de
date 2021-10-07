@@ -1,11 +1,13 @@
 ---
 errors:
-  federationSyncStructureChanged: Modulstruktur geändert
-  invalidID: Ungültige ID
-  nodeNotFound: Knoten nicht vorhanden
-  notAllowedToCreate: Erstellen von Modulen ist nicht zulässig
-  notAllowedToManage: dieses Modul kann nicht verwaltet werden
-  notAllowedToMap: dieses Modul kann nicht zugeordnet werden
-  notFound: Modul nicht vorhanden
-  notUnique: Knoten nicht eindeutig
-  staleData: alte Daten
+  alreadyExists: Route über diesen Endpunkt bereits vorhanden
+  existsEndpoint: Route mit diesem Endpunkt bereits vorhanden
+  invalidEndpoint: ungültiger Endpunkt
+  invalidID: ungültige ID
+  notAllowedToCreate: Erstellen von Routen ist nicht zulässig
+  notAllowedToDelete: diese Route kann nicht gelöscht werden
+  notAllowedToExec: diese Route kann nicht ausgeführt werden
+  notAllowedToRead: diese Route kann nicht gelesen werden
+  notAllowedToUndelete: diese Route kann nicht wiederhergestellt werden
+  notAllowedToUpdate: diese Route kann nicht aktualisiert werden
+  notFound: Route nicht gefunden
