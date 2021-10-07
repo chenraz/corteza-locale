@@ -1,46 +1,43 @@
 ---
 list:
-  columns:
-    action: Action
-    actor: User
-    description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  details:
-    id: 'ID'
-    header: 'Details'
-    timestamp: 'Timestamp'
-    requestOrigin: 'Request Origin'
-    requestID: 'Request ID'
-    actorIPAddr: 'Actor/User'
-    actor: 'User'
-    actorID: 'User ID'
-    severity: 'Severity'
-    resource: 'Resource'
-    action: 'Action'
-    headerAdditional: 'Additional information'
-    description: 'Description'
-    error: 'Error'
-  severity:
-    emergency: 'Emergency'
-    alert: 'Alert'
-    critical: 'Critical'
-    error: 'Error'
-    warning: 'Warning'
-    notice: 'Notice'
-    info: 'Info'
-    debug: 'Debug'
-  filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+  rules:
+    add: Add role
+    addRole: Add new role
+    component:
+      operations:
+        grant: Grant permissions on federation service
+        nodeCreate: Create nodes
+        nodesSearch: List or create nodes
+        pair: Pair nodes
+        settingsManage: Manage all settings
+        settingsRead: Access all settings
+      type:
+        label: Federation service
+    exposedModule:
+      operations:
+        manage: Manage any module
+      type:
+        label: Modules
+    loading: Loading permissions
+    noRole: No role selected
+    node:
+      operations:
+        delete: Delete any node
+        manage: Manage any node
+        moduleCreate: Create modules
+        pair: Pair nodes
+        read: Access any node
+        update: Update any node
+      type:
+        label: Nodes
+    notAllowed: Not allowed to set permissions
+    sharedModule:
+      operations:
+        map: Map any module
+      type:
+        label: Modules
+    submit: Submit
+    tip1: Click on permission/role cell to allow a specific operation
+    tip2: Use Alt-Click to set explicit deny on operation
+    title: List of rules
+  title: Federation permissions
