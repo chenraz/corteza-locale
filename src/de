@@ -1,13 +1,12 @@
 ---
 errors:
-  alreadyExists: Route über diesen Endpunkt bereits vorhanden
-  existsEndpoint: Route mit diesem Endpunkt bereits vorhanden
-  invalidEndpoint: ungültiger Endpunkt
-  invalidID: ungültige ID
-  notAllowedToCreate: Erstellen von Routen ist nicht zulässig
-  notAllowedToDelete: diese Route kann nicht gelöscht werden
-  notAllowedToExec: diese Route kann nicht ausgeführt werden
-  notAllowedToRead: diese Route kann nicht gelesen werden
-  notAllowedToUndelete: diese Route kann nicht wiederhergestellt werden
-  notAllowedToUpdate: diese Route kann nicht aktualisiert werden
-  notFound: Route nicht gefunden
+  invalidID: Ungültige ID
+  notAllowedToCreate: Erstellen von Anwendungen ist nicht zulässig
+  notAllowedToDelete: diese Anwendung kann nicht gelöscht werden
+  notAllowedToManageFlag: Flags für Anwendungen können nicht verwaltet werden
+  notAllowedToManageFlagGlobal: globale Flags für Anwendungen können nicht verwaltet werden
+  notAllowedToRead: diese Anwendung kann nicht gelesen werden
+  notAllowedToSearch: Anwendungen können nicht gesucht oder aufgelistet werden
+  notAllowedToUndelete: diese Anwendung kann nicht wiederhergestellt werden
+  notAllowedToUpdate: diese Anwendung kann nicht aktualisiert werden
+  notFound: Anwendung nicht gefunden
