@@ -1,19 +1,16 @@
 ---
 template:
-  title: crwdns61399:0crwdne61399:0
-  email:
-    instructions: crwdns61401:0crwdne61401:0
-    code: crwdns61403:0crwdne61403:0
-    verify: crwdns61405:0crwdne61405:0
-    resend: crwdns61407:0crwdne61407:0
-    confirmed: crwdns61409:0crwdne61409:0
-  totp:
-    instructions: crwdns61411:0crwdne61411:0
-    code: crwdns61413:0crwdne61413:0
-    confirmed: crwdns61415:0crwdne61415:0
-    verify: crwdns61417:0crwdne61417:0
+  title: crwdns61379:0crwdne61379:0
+  enforced: |
+    crwdns61381:0crwdne61381:0
+  instructions: |
+    crwdns61383:0crwdne61383:0
+  lastpass: crwdns61385:0{{ link }}crwdne61385:0
+  gauth: crwdns61387:0{{ android }}crwdnd61387:0{{ iphone }}crwdne61387:0
+  authy: crwdns61389:0{{ link }}crwdne61389:0
+  form:
+    title: "crwdns61391:0crwdne61391:0"
+    button: crwdns61393:0crwdne61393:0
 alerts:
-  email:
-    resent: crwdns61419:0crwdne61419:0
-  topt:
-    valid: crwdns61421:0crwdne61421:0
+  text-2FA-enabled: crwdns61395:0crwdne61395:0
+  text-2FA-disabled: crwdns61397:0crwdne61397:0
