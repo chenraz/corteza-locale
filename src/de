@@ -4,14 +4,15 @@ errors:
   invalidHandle: ungültiger Handle
   invalidID: ungültige ID
   invalidNamespaceID: ungültige oder fehlende Namespace-ID
-  moduleNotFound: Modul nicht vorhanden
+  nameNotUnique: Name nicht eindeutig
   namespaceNotFound: Namespace nicht vorhanden
-  notAllowedToCreate: Erstellen von Charts ist nicht zulässig
-  notAllowedToDelete: dieser Chart kann nicht gelöscht werden
-  notAllowedToRead: dieser Chart kann nicht gelesen werden
+  notAllowedToCreate: Erstellen von Modulen ist nicht zulässig
+  notAllowedToDelete: dieses Modul kann nicht gelöscht werden
+  notAllowedToListModules: Module können nicht aufgelistet werden
+  notAllowedToRead: auf dieses Modul kann nicht zugegriffen werden
   notAllowedToReadNamespace: dieser Namespace kann nicht gelesen werden
-  notAllowedToSearch: Charts können nicht gesucht oder aufgelistet werden
-  notAllowedToUndelete: dieser Chart kann nicht wiederhergestellt werden
-  notAllowedToUpdate: dieser Chart kann nicht aktualisiert werden
-  notFound: Chart nicht vorhanden
+  notAllowedToSearch: Module können nicht gesucht oder aufgelistet werden
+  notAllowedToUndelete: dieses Modul kann nicht wiederhergestellt werden
+  notAllowedToUpdate: dieses Modul kann nicht aktualisiert werden
+  notFound: Modul nicht vorhanden
   staleData: alte Daten
