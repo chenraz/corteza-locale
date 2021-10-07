@@ -1,23 +1,90 @@
 ---
-adminPanel: crwdns65865:0crwdne65865:0
-automation: crwdns65867:0crwdne65867:0
-chart: crwdns65869:0crwdne65869:0
-configuration: crwdns65871:0crwdne65871:0
-editPage: crwdns65873:0crwdne65873:0
-help:
-  documentation: crwdns65875:0crwdne65875:0
-  feedback: crwdns65877:0crwdne65877:0
-  forum: crwdns65879:0crwdne65879:0
-  version: 'crwdns65881:0crwdne65881:0'
-module: crwdns65883:0crwdne65883:0
-more: crwdns65885:0crwdne65885:0
-namespace: crwdns65887:0crwdne65887:0
-noPageTitle: crwdns65889:0crwdne65889:0
-page: crwdns65891:0crwdne65891:0
-publicPages: crwdns65893:0crwdne65893:0
-userSettings:
-  changePassword: crwdns65895:0crwdne65895:0
-  loggedInAs: crwdns65897:0{{user}}crwdne65897:0
-  logout: crwdns65899:0crwdne65899:0
-  profile: crwdns65901:0crwdne65901:0
-viewPage: crwdns65903:0crwdne65903:0
+allRecords:
+  create:
+    title: crwdns65691:0{{name}}crwdne65691:0
+  edit:
+    title: crwdns65693:0{{name}}crwdne65693:0
+  label: crwdns65695:0crwdne65695:0
+  list:
+    title: crwdns65697:0{{name}}crwdne65697:0
+  selectFields:
+    title: crwdns65699:0crwdne65699:0
+  view:
+    title: crwdns65701:0{{name}}crwdne65701:0
+createLabel: crwdns65703:0crwdne65703:0
+edit:
+  create: crwdns65705:0crwdne65705:0
+  edit: crwdns65707:0crwdne65707:0
+  federationSettings:
+    downstream:
+      allFields: crwdns65709:0crwdne65709:0
+      description: 'crwdns65711:0crwdne65711:0'
+      title: crwdns65713:0crwdne65713:0
+    errorFetchingData: crwdns65715:0crwdne65715:0
+    general:
+      receive: crwdns65717:0crwdne65717:0
+      send: crwdns65719:0crwdne65719:0
+      title: crwdns65721:0crwdne65721:0
+    noNodes: crwdns65723:0crwdne65723:0
+    noPermission: crwdns65725:0crwdne65725:0
+    pickModule: crwdns65727:0crwdne65727:0
+    pickModuleField: crwdns65729:0crwdne65729:0
+    pickServer: crwdns65731:0crwdne65731:0
+    specificTitle: crwdns65733:0{{handle}}crwdne65733:0
+    title: crwdns65735:0crwdne65735:0
+    upstream:
+      allFields: crwdns65737:0crwdne65737:0
+      description: crwdns65739:0crwdne65739:0
+      title: crwdns65741:0crwdne65741:0
+  fieldPermissions: crwdns65743:0crwdne65743:0
+  manageRecordFields: crwdns65745:0crwdne65745:0
+  moduleFieldSettings: crwdns65747:0crwdne65747:0
+  moduleInfo: crwdns65749:0crwdne65749:0
+  newField: crwdns65751:0crwdne65751:0
+  recordPermissions: crwdns65753:0crwdne65753:0
+  reorderFields: crwdns65755:0crwdne65755:0
+  specificFieldSettings: crwdns65757:0{{name}}crwdne65757:0
+  steps:
+    recordList: crwdns65759:0crwdne65759:0
+    recordPage: crwdns65761:0crwdne65761:0
+  systemFields: 'crwdns65763:0crwdne65763:0'
+  tooltip:
+    attributes: crwdns65765:0crwdne65765:0
+    name: crwdns65767:0crwdne65767:0
+    private: crwdns65769:0crwdne65769:0
+    required: crwdns65771:0crwdne65771:0
+    title: crwdns65773:0crwdne65773:0
+federated: crwdns65775:0crwdne65775:0
+fieldKinds:
+  Bool:
+    label: crwdns65777:0crwdne65777:0
+  DateTime:
+    label: crwdns65779:0crwdne65779:0
+  Email:
+    label: crwdns65781:0crwdne65781:0
+  File:
+    label: crwdns65783:0crwdne65783:0
+  Number:
+    label: crwdns65785:0crwdne65785:0
+  Record:
+    label: crwdns65787:0crwdne65787:0
+  Select:
+    label: crwdns65789:0crwdne65789:0
+  String:
+    label: crwdns65791:0crwdne65791:0
+  Url:
+    label: crwdns65793:0crwdne65793:0
+  User:
+    label: crwdns65795:0crwdne65795:0
+forModule:
+  recordList: crwdns65797:0crwdne65797:0
+  recordListPage: crwdns65799:0crwdne65799:0
+  recordPage: crwdns65801:0crwdne65801:0
+import: crwdns65803:0crwdne65803:0
+newLabel: crwdns65805:0crwdne65805:0
+newPlaceholder: crwdns65807:0crwdne65807:0
+recordPage:
+  create: crwdns65809:0crwdne65809:0
+  edit: crwdns65811:0crwdne65811:0
+searchPlaceholder: crwdns65813:0crwdne65813:0
+title: crwdns65815:0crwdne65815:0
