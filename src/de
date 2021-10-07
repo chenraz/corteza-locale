@@ -1,19 +1,17 @@
 ---
 template:
-  title: Multi-factor authentication
-  email:
-    instructions: Check your inbox and enter the received code
-    code: Code
-    verify: Verifizieren
-    resend: Erneut Senden
-    confirmed: Email OTP confirmed
-  totp:
-    instructions: Check your TOTP application and enter the code you received
-    code: Code
-    confirmed: TOTP confirmed
-    verify: Verifizieren
-alerts:
-  email:
-    resent: Email OTP resent
-  topt:
-    valid: TOTP valid
+  title: Ihre Sitzung
+  list:
+    current: Derzeitige Sitzung
+    authorized-on: Autorisiert am
+    same-machine: Dieser Computer
+    ip-address: IP Adresse
+    same-browser: Dieser Browser
+    browser: Browser
+    expires: Läuft ab
+    expired: Abgelaufen
+    today: Heute
+    tomorrow: In einem Tag
+    soon: In {{days}} Tagen
+    delete: Diese Sitzung Löschen
+  delete-all: Alle Sitzungen Löschen
