@@ -1,88 +1,98 @@
 ---
-editor:
-  info:
-    add: Add
-    api: Allow client access to Corteza API on behalf of user
-    choose-date: Choose a date
-    createdAt: Created at
-    delete: Delete
-    deletedAt: Deleted at
-    enabled:
-      disabledFootnote: Unable to disable the default client
-      label: Aktiviert
-    expiresAt:
-      description: If not defined the client has no expiration date
-      label: Expires at
-    grant:
-      authorization_code: Will be used to authenticate users (grant type = authorization_code)
-      client_credentials: Will be used to authenticate machines (grant type = client_credentials)
-    handle:
-      disabledFootnote: Unable to change the handle of the default auth client
-      label: Handle
-    name: Name
-    no-time: No time selected
-    profile: Allow client access to user's profile
-    redirectURI: Redirect URI's
-    remove: Remove
-    searchRoles: Search roles
-    secret: Secret
-    security:
-      forbiddenRoles:
-        description: Roles from this list will be removed from security context when user authorizes this client
-        label: Forbidden roles ({{count}})
-      forcedRoles:
-        description: Roles from this list will be always added to security context when user authorizes this client
-        label: Forced roles ({{count}})
-      impersonateUser:
-        description: When authenticating with client credentials, act in the name of the impersonated user
-        label: Impersonate user
-      permittedRoles:
-        description: Only roles in this list will be added into security context when user authorizes this client
-        label: Permitted roles ({{count}})
-    title: Grundlegende Informationen
-    trusted:
-      description: When client is trusted users do not see authorization step
-      label: Trusted
-    undelete: Undelete
-    unnamed: Unnamed role
-    updatedAt: Updated at
-    uri: URI
-    validFrom:
-      description: If not defined the client is valid until expiration
-      label: Valid from
-    generateCurl: Generate cURL snippet
-    hideCurl: Hide cURL snippet
-    cUrl: Generated cURL
-    testCurl: Test auth
-  new: New
-  permissions: Permissions
-  title:
-    create: Create client
-    edit: Edit client
-list:
-  columns:
-    actions: ""
-    createdAt: Erstellt
-    enabled: Aktiviert
-    handle: Handle
-    meta:
-      name: Name
-  filterForm:
-    deleted:
-      label: deleted clients
-    excluded:
-      label: Without
-    exclusive:
-      label: Only
-    inclusive:
-      label: Including
-    query:
-      label: Filter clients list
-      placeholder: Filter clients
-  loading: Loading clients
-  new: New
-  numFound: '{{count}} clients found'
-  numFound_plural: '{{count}} clients found'
-  permissions: Permissions
-  title: Auth Clients
-  yaml: YAML
+colorLabel: '{{count}} colors'
+colorScheme: Color scheme
+edit:
+  dimension:
+    calculateLabelCount: Calculate how many labels can be shown
+    defaultValueFootnote: Use this value for missing dimension values
+    defaultValueLabel: Default value
+    fieldLabel: Field
+    fieldPlaceholder: Select a dimension field
+    function:
+      date: DATE
+      label: Function
+      month: MONTH
+      none: (no grouping / buckets)
+      placeholder: Select dimension modifier (bucket size)
+      quarter: QUARTER
+      week: WEEK
+      year: YEAR
+    gaugeSteps: Steps
+    label: Dimensions (datetime & select fields)
+    skipMissingValues: Skip missing values
+  filter:
+    customize: Customize filter
+    label: Filters
+    noFilter: (no filter)
+    recordsCreatedLastMonth: Records created last month
+    recordsCreatedLastQuarter: Records created last quarter
+    recordsCreatedLastYear: Records created last year
+    recordsCreatedThisMonth: Records created this month
+    recordsCreatedThisQuarter: Records created this quarter
+    recordsCreatedThisYear: Records created this year
+  loadData: Load data
+  metric:
+    add: Add metric
+    fieldLabel: Field
+    fieldPlaceholder: Select metric field
+    fillArea: Fill area below the line
+    fixTooltips: Always show tooltips
+    function:
+      avg: AVG
+      countd: COUNTD
+      label: Function
+      max: MAX
+      min: MIN
+      placeholder: Select metric aggregate function
+      std: STD
+      sum: SUM
+    fx:
+      description: n - current dataset value, m - previous dataset value
+      label: Post processing function
+    gaugeColor: Color
+    label: Metric
+    labelColor: Label color
+    labelLabel: Label
+    labelPlaceholder: Total
+    legend:
+      bottom: Bottom
+      left: Left
+      positionPlaceholder: Legend position
+      right: Right
+      top: Top
+    lineTension:
+      curvy: Big curvatures
+      label: Line tension
+      medium: Medium curvatures
+      placeholder: Line tension
+      slight: Small curvatures
+      straight: Straight lines
+    output:
+      bar: Bar
+      doughnut: Doughnut
+      label: Output
+      line: Line
+      pie: Pie
+      placeholder: Select metric output
+    relative: Show relative value
+    relativePrecision: 'Precision:'
+    title: Metrics (numeric fields)
+  modulePick: Pick a module
+  title: Chart builder
+  unconfiguredReport: Unconfigured report
+  yAxis:
+    axisOnRight: Place axis on the right side
+    axisScaleFromZero: Always begin axis scale at zero
+    label: Y-axis
+    labelLabel: Axis label
+    labelPlaceholder: Axis label
+    logarithmicScale: Logarithmic scale
+    maxLabel: Max value
+    maxPlaceholder: Maximum value
+    minLabel: Min value
+    minPlaceholder: Minimum value
+import: 'Import chart(s):'
+newLabel: 'Create a new chart:'
+newPlaceholder: Chart name
+searchPlaceholder: Type here to search all charts in this namespace
+title: List of Charts
