@@ -1,6 +1,3 @@
 ---
-label:
-  add: + Add
-  back: Back
-  delete: Delete
-  save: Save
+noApps: No Applications
+search: Type here to search
