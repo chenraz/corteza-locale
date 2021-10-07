@@ -1,5 +1,15 @@
 ---
 template:
-  title: Bestätigen Sie Ihre E-Mail
-  instructions: Sie sollten in Kürze eine E-Mail mit einem Bestätigungslink in Ihrem Posteingang erhalten.
-  links: <a href="{{signup}}">Erstellen Sie einen neuen Account</a> oder <a href="{{login}}">melden Sie sich an</a>.
+  title: Autorisieren
+  form:
+    greeting-paragraph: Hallo
+    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    buttons:
+      allow: Erlauben
+      deny: Nicht Erlauben
+  links:
+    mistake: If this is a mistake, please <a href="{{link}}">log out</a>.
+  errors:
+    invalid-user: Cannot continue with unauthorized email, visit <a href="{{link}}">your profile</a> and resolve the issue.
+alerts:
+  denied: cannot authorize {{client}}, no permissions.
