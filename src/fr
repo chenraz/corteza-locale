@@ -1,3 +1,2 @@
 ---
-template:
-  title: Internal error
+version: version {{version}}
