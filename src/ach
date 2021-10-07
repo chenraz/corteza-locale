@@ -1,11 +1,24 @@
 ---
-help:
-  documentation: crwdns66367:0crwdne66367:0
-  feedback: crwdns66369:0crwdne66369:0
-  forum: crwdns66371:0crwdne66371:0
-  version: 'crwdns66373:0crwdne66373:0'
-userSettings:
-  changePassword: crwdns66375:0crwdne66375:0
-  loggedInAs: crwdns66377:0{{user}}crwdne66377:0
-  logout: crwdns66379:0crwdne66379:0
-  profile: crwdns66381:0crwdne66381:0
+report:
+  all: crwdns66405:0crwdne66405:0
+  specific: crwdns66407:0{{target}}crwdne66407:0
+resetBack: crwdns66409:0{{current}}crwdne66409:0
+saveChanges: crwdns66411:0crwdne66411:0
+setFor: crwdns66413:0{{target}}crwdne66413:0
+system-report:
+  delete:
+    description: "crwdns66415:0crwdne66415:0"
+    specific: crwdns66417:0{{target}}crwdne66417:0
+    title: crwdns66419:0crwdne66419:0
+  read:
+    description: "crwdns66421:0crwdne66421:0"
+    specific: crwdns66423:0{{target}}crwdne66423:0
+    title: crwdns66425:0crwdne66425:0
+  run:
+    description: "crwdns66427:0crwdne66427:0"
+    specific: crwdns66429:0{{target}}crwdne66429:0
+    title: crwdns66431:0crwdne66431:0
+  update:
+    description: "crwdns66433:0crwdne66433:0"
+    specific: crwdns66435:0{{target}}crwdne66435:0
+    title: crwdns66437:0crwdne66437:0
