@@ -1,9 +1,6 @@
 ---
 template:
-  title: crwdns61439:0crwdne61439:0
-  instructions: crwdns61441:0crwdne61441:0
-  links: crwdns61443:0{{signup}}crwdnd61443:0{{login}}crwdne61443:0
-alert:
-  invalid-expired-password-token: crwdns66593:0crwdne66593:0
-  password-reset-success: crwdns66595:0crwdne66595:0
-  password-reset-disabled: crwdns66597:0crwdne66597:0
+  title: crwdns61373:0crwdne61373:0
+  instructions: crwdns61375:0crwdne61375:0
+  button:
+    remove: crwdns61377:0crwdne61377:0
