@@ -1,20 +1,11 @@
 ---
-build:
-  addBlock: crwdns66057:0crwdne66057:0
-  selectBlockFootnote: crwdns66059:0crwdne66059:0
-  selectBlockTitle: crwdns66061:0crwdne66061:0
-createLabel: crwdns66063:0crwdne66063:0
-edit:
-  create: crwdns66065:0crwdne66065:0
-  edit: crwdns66067:0crwdne66067:0
-  pageDescription: crwdns66069:0crwdne66069:0
-  visible: crwdns66071:0crwdne66071:0
-import: 'crwdns66073:0crwdne66073:0'
-instructions: crwdns66075:0crwdne66075:0
-invalid: crwdns66077:0crwdne66077:0
-newPlaceholder: crwdns66079:0crwdne66079:0
-noBlock: crwdns66081:0crwdne66081:0
-notVisible: crwdns66083:0crwdne66083:0
-title: crwdns66085:0crwdne66085:0
-view: crwdns66087:0crwdne66087:0
-visible: crwdns66089:0crwdne66089:0
+errors:
+  invalidID: crwdns61607:0crwdne61607:0
+  notAllowedToCreate: crwdns61609:0crwdne61609:0
+  notAllowedToDelete: crwdns61611:0crwdne61611:0
+  notAllowedToRead: crwdns61613:0crwdne61613:0
+  notAllowedToSearch: crwdns61615:0crwdne61615:0
+  notAllowedToUndelete: crwdns61617:0crwdne61617:0
+  notAllowedToUpdate: crwdns61619:0crwdne61619:0
+  notFound: crwdns61621:0crwdne61621:0
+  staleData: crwdns61623:0crwdne61623:0
