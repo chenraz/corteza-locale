@@ -1,12 +1,16 @@
 ---
 errors:
+  handleNotUnique: Rollen-Handle ist nicht eindeutig
+  invalidHandle: ungültiger Handle
   invalidID: ungültige ID
-  notAllowedToCreate: Erstellen von Berichten ist nicht zulässig
-  notAllowedToDelete: dieser Bericht kann nicht gelöscht werden
-  notAllowedToListReports: Berichte können nicht aufgelistet werden
-  notAllowedToRead: dieser Bericht kann nicht gelesen werden
-  notAllowedToRun: dieser Bericht kann nicht ausgeführt werden
-  notAllowedToSearch: "Berichte können nicht aufgelistet oder gesucht werden\n"
-  notAllowedToUndelete: dieser Bericht kann nicht wiederhergestellt werden
-  notAllowedToUpdate: dieser Bericht kann nicht aktualisiert werden
-  notFound: Bericht nicht gefunden
+  nameNotUnique: Rollenname ist nicht eindeutig
+  notAllowedToArchive: diese Rolle kann nicht archiviert werden
+  notAllowedToCreate: Erstellen von Rollen ist nicht zulässig
+  notAllowedToDelete: diese Rolle kann nicht gelöscht werden
+  notAllowedToManageMembers: Rollenmitglieder können nicht verwaltet werden
+  notAllowedToRead: diese Rolle kann nicht gelesen werden
+  notAllowedToSearch: Rollen können nicht gesucht oder aufgelistet werden
+  notAllowedToUnarchive: diese Rolle kann nicht aufgehoben werden
+  notAllowedToUndelete: diese Rolle kann nicht wiederhergestellt werden
+  notAllowedToUpdate: diese Rolle kann nicht aktualisiert werden
+  notFound: Rolle nicht gefunden
