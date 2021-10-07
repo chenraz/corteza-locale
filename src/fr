@@ -1,19 +1,19 @@
 ---
 template:
-  title: Multi-factor authentication
-  email:
-    instructions: Check your inbox and enter the received code
-    code: Code
-    verify: Verify
-    resend: Resend
-    confirmed: Email OTP confirmed
-  totp:
-    instructions: Check your TOTP application and enter the code you received
-    code: Code
-    confirmed: TOTP confirmed
-    verify: Verify
+  title: Your profile
+  form:
+    email:
+      label: Email
+      placeholder: email@domain.ltd
+      resend-confirmation-link: Email is not verified, <a href="{{link}}?resend">resend confirmation link.</a>
+    name:
+      label: Full name
+      placeholder: Your full name
+    handle:
+      label: Handle
+      placeholder: Short name, nickname or handle
+    buttons:
+      submit: Update profile
 alerts:
-  email:
-    resent: Email OTP resent
-  topt:
-    valid: TOTP valid
+  profile-updated: Profile successfully updated.
+  profile-update-fail: Could not update profile due to input errors
