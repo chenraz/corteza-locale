@@ -4,14 +4,15 @@ errors:
   invalidHandle: invalid handle
   invalidID: invalid ID
   invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
+  nameNotUnique: name not unique
   namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create charts
-  notAllowedToDelete: not allowed to delete this chart
-  notAllowedToRead: not allowed to read this chart
+  notAllowedToCreate: not allowed to create modules
+  notAllowedToDelete: not allowed to delete this module
+  notAllowedToListModules: not allowed to list modules
+  notAllowedToRead: not allowed to read this module
   notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list charts
-  notAllowedToUndelete: not allowed to undelete this chart
-  notAllowedToUpdate: not allowed to update this chart
-  notFound: chart does not exist
+  notAllowedToSearch: not allowed to search or list modules
+  notAllowedToUndelete: not allowed to undelete this module
+  notAllowedToUpdate: not allowed to update this module
+  notFound: module does not exist
   staleData: stale data
