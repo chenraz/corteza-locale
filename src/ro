@@ -1,10 +1,8 @@
 ---
 template:
-  title: Clienți autorizati
-  list:
-    authorized-on: Autorizat în
-    buttons:
-      revoke: Revocare acces
-    empty: Nici un client autorizat
-alerts:
-  removed: Autorizarea clientului a fost revocata
+  authorize-client: Finalizare autorizare pentru
+  class:
+    your-profile: Profilul tău
+    security: Securitate
+    login-session: Sesiuni conectare
+    authorized-clients: Clienți autorizați
