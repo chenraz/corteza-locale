@@ -1,23 +1,24 @@
 ---
 template:
-  title: Sicherheit
-  password:
-    title: Passwort
-    change-link: Passwort ändern
-  mfa:
-    title: Multi-Faktor-Authentifizierung
-    totp:
-      title: Zusätzliche Sicherheit mit der mobilen App (Time-based One-time Password)
-      enforced: Eingerichtet und bei Anmeldung erforderlich.
-      disabled: Derzeit deaktiviert.
-      configure: Einrichten
-      disable: Deaktivieren
+  title: Registrieren
+  form:
     email:
-      title: Zusätzliche Sicherheit mit Einmalpasswort (OTP) per E-Mail
-      enforced: Aktiviert und bei Anmeldung benötigt.
-      disabled: Derzeit deaktiviert.
-      enable: Einrichten
-      disable: Deaktivieren
-    all-disabled: Die Multi-Faktor-Authentifizierung (MFA) ist derzeit deaktiviert. Bitten Sie Ihren Administrator, sie zu aktivieren.
+      label: E-Mail
+      placeholder: email@domain.tld
+    password:
+      label: Passwort
+      placeholder: Passwort
+    name:
+      label: Vollständiger Name
+      placeholder: Ihr Vollständiger Name
+    nickname:
+      label: Kurzname, Nickname oder Handle
+      placeholder: Kurzname, Nickname oder Handle
+    button:
+      sign-up: Absenden
+  log-in: Sie verfügen bereits über einen Account? <a href="{{link}}">Hier anmelden</a>
 alerts:
-  topt-disabled: Zwei-Faktor-Authentifizierung mit TOTP ist deaktiviert
+  signup-successful: Anmeldung erfolgreich.
+  email-confirmed-logged-in: Die E-Mail-Adresse wurde bestätigt, Sie sind jetzt eingeloggt.
+  invalid-expired-token: Der Token zum Bestätigen der E-Mail ist ungültig oder abgelaufen. Bitte senden Sie eine erneute Bestätigungsanfrage.
+  signup-disabled: Anmeldung ist deaktiviert
