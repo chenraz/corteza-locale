@@ -1,13 +1,17 @@
 ---
-errors:
-  cannotRenderPartial: cannot render partial templates
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create templates
-  notAllowedToDelete: not allowed to delete this template
-  notAllowedToRead: not allowed to read this template
-  notAllowedToRender: not allowed to render this template
-  notAllowedToSearch: not allowed to search or list templates
-  notAllowedToUndelete: not allowed to undelete this template
-  notAllowedToUpdate: not allowed to update this template
-  notFound: template not found
+list:
+  columns:
+    updatedAt: Last update
+  filter:
+    absoluteTime: Show absolute time
+    incScriptsWithErrors: Errors ({{ count }})
+    incScriptsWithIterator: Iterator ({{ count }})
+    incScriptsWithSecurity: Security ({{ count }})
+    incScriptsWithTriggers: Triggers ({{ count }})
+    searchQuery: Search query
+  flags:
+    iterator: Iterator
+    security: Security
+    triggers: Triggers
+  labelMissing: <label missing>
+  title: Corredor Scripts
