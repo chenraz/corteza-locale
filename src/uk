@@ -1,46 +1,59 @@
 ---
+editor:
+  info:
+    createdAt: Created at
+    delete: Delete
+    deletedAt: Deleted at
+    enabled: Enabled
+    id: ID
+    name: Name
+    title: Basic information
+    undelete: Undelete
+    updatedAt: Updated at
+  new: New
+  permissions: Permissions
+  title:
+    create: Create application
+    edit: Edit application
+  unify:
+    config:
+      description: Application configuration (JSON)
+      label: Configuration
+    listed: Listed
+    logo:
+      description: Logo used in the application selector
+      label: Logo
+      placeholder: Choose a logo or drop it here...
+    name:
+      description: Name used in the application selector
+      label: Name
+    pinned: Pinned
+    title: Unify app selector
+    url:
+      description: Application URL
+      label: URL
 list:
   columns:
-    action: Action
-    actor: User
-    description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  details:
-    id: 'ID'
-    header: 'Details'
-    timestamp: 'Timestamp'
-    requestOrigin: 'Request Origin'
-    requestID: 'Request ID'
-    actorIPAddr: 'Actor/User'
-    actor: 'User'
-    actorID: 'User ID'
-    severity: 'Severity'
-    resource: 'Resource'
-    action: 'Action'
-    headerAdditional: 'Additional information'
-    description: 'Description'
-    error: 'Error'
-  severity:
-    emergency: 'Emergency'
-    alert: 'Alert'
-    critical: 'Critical'
-    error: 'Error'
-    warning: 'Warning'
-    notice: 'Notice'
-    info: 'Info'
-    debug: 'Debug'
-  filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+    actions: ""
+    createdAt: Created
+    enabled: Enabled
+    name: Name
+  filterForm:
+    deleted:
+      label: deleted applications
+    excluded:
+      label: Without
+    exclusive:
+      label: Only
+    inclusive:
+      label: Including
+    query:
+      label: Filter applications list
+      placeholder: Filter applications by name
+  loading: Loading applications
+  new: New
+  numFound: '{{count}} application found'
+  numFound_plural: '{{count}} applications found'
+  permissions: Permissions
+  title: Applications
+  yaml: YAML
