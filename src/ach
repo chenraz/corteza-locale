@@ -1,70 +1,71 @@
 ---
 editor:
-  auth:
-    internal:
-      enabled: crwdns63931:0crwdne63931:0
-      password-reset:
-        enabled: crwdns63933:0crwdne63933:0
-      signup:
-        email-confirmation-required: crwdns63935:0crwdne63935:0
-        enabled: crwdns63937:0crwdne63937:0
-        split-credentials-check:
-          description: 'crwdns63939:0crwdne63939:0'
-          label: crwdns63941:0crwdne63941:0
-      title: crwdns63943:0crwdne63943:0
-    mail:
-      from-address: crwdns63945:0crwdne63945:0
-      from-name: crwdns63947:0crwdne63947:0
-      title: crwdns63949:0crwdne63949:0
-      validate-email: crwdns63951:0crwdne63951:0
-    mfa:
-      TOTP:
-        enabled: crwdns63953:0crwdne63953:0
-        enforced: crwdns63955:0crwdne63955:0
-        issuer:
-          description: crwdns63957:0crwdne63957:0
-          label: crwdns63959:0crwdne63959:0
-      emailOTP:
-        enabled: crwdns63961:0crwdne63961:0
-        enforced: crwdns63963:0crwdne63963:0
-        expires:
-          description: crwdns63965:0crwdne63965:0
-          label: crwdns63967:0crwdne63967:0
-      title: crwdns63969:0crwdne63969:0
-    title: crwdns63971:0crwdne63971:0
-    url: crwdns63973:0crwdne63973:0
-  external:
-    addOidcProvider: crwdns63975:0crwdne63975:0
-    certificate: crwdns63977:0crwdne63977:0
-    clientKey: crwdns63979:0crwdne63979:0
-    clientSecret: crwdns63981:0crwdne63981:0
-    enabled: crwdns63983:0crwdne63983:0
-    facebook: crwdns63985:0crwdne63985:0
-    github: crwdns63987:0crwdne63987:0
-    google: crwdns63989:0crwdne63989:0
-    handle: crwdns63991:0crwdne63991:0
-    issuer: crwdns63993:0crwdne63993:0
-    issuerHint: crwdns63995:0crwdne63995:0
-    issuerPlaceholder: crwdns63997:0crwdne63997:0
-    linkedin: crwdns63999:0crwdne63999:0
-    oidc: crwdns64001:0crwdne64001:0
-    providerEnabled: crwdns64003:0crwdne64003:0
-    saml:
-      cert: crwdns64005:0crwdne64005:0
-      cert-key: crwdns64007:0crwdne64007:0
-      desc:
-        cert: crwdns64009:0crwdne64009:0
-        cert-key: crwdns64011:0crwdne64011:0
-        idp:
-          ident-handle: crwdns64013:0crwdne64013:0
-          ident-identifier: crwdns64015:0crwdne64015:0
-          ident-name: crwdns64017:0crwdne64017:0
-      idp:
-        ident-handle: crwdns64019:0crwdne64019:0
-        ident-identifier: crwdns64021:0crwdne64021:0
-        ident-name: crwdns64023:0crwdne64023:0
-        title: crwdns64025:0crwdne64025:0
-        url: crwdns64027:0crwdne64027:0
-      title: crwdns64029:0crwdne64029:0
-    title: crwdns64031:0crwdne64031:0
-  title: crwdns64033:0crwdne64033:0
+  content:
+    editor:
+      unsupported: crwdns64039:0crwdne64039:0
+    partial: crwdns64041:0crwdne64041:0
+    preview:
+      html: crwdns64043:0crwdne64043:0
+      pdf: crwdns64045:0crwdne64045:0
+      title: crwdns64047:0crwdne64047:0
+    title: crwdns64049:0crwdne64049:0
+    toolbox:
+      partials: crwdns64051:0crwdne64051:0
+      samples:
+        defaultHTML: crwdns64053:0crwdne64053:0
+        label: crwdns64055:0crwdne64055:0
+      snippets:
+        funcCall: crwdns64057:0crwdne64057:0
+        interpolate: crwdns64059:0crwdne64059:0
+        iterator: crwdns64061:0crwdne64061:0
+        label: crwdns64063:0crwdne64063:0
+      title: crwdns64065:0crwdne64065:0
+  info:
+    contentType:
+      text_html: crwdns64067:0crwdne64067:0
+      text_plain: crwdns64069:0crwdne64069:0
+    createdAt: crwdns64071:0crwdne64071:0
+    delete: crwdns64073:0crwdne64073:0
+    deletedAt: crwdns64075:0crwdne64075:0
+    handle: crwdns64077:0crwdne64077:0
+    meta:
+      description: crwdns64079:0crwdne64079:0
+      short: crwdns64081:0crwdne64081:0
+    partial: crwdns64083:0crwdne64083:0
+    partialDescription: crwdns64085:0crwdne64085:0
+    title: crwdns64087:0crwdne64087:0
+    type: crwdns64089:0crwdne64089:0
+    undelete: crwdns64091:0crwdne64091:0
+    updatedAt: crwdns64093:0crwdne64093:0
+  new: crwdns64095:0crwdne64095:0
+  permissions: crwdns64097:0crwdne64097:0
+  title:
+    create: crwdns64099:0crwdne64099:0
+    edit: crwdns64101:0crwdne64101:0
+list:
+  columns:
+    actions: "crwdns64103:0crwdne64103:0"
+    createdAt: crwdns64105:0crwdne64105:0
+    handle: crwdns64107:0crwdne64107:0
+    language: crwdns64109:0crwdne64109:0
+    meta:
+      short: crwdns64111:0crwdne64111:0
+  filterForm:
+    deleted:
+      label: crwdns64113:0crwdne64113:0
+    excluded:
+      label: crwdns64115:0crwdne64115:0
+    exclusive:
+      label: crwdns64117:0crwdne64117:0
+    handle:
+      label: crwdns64119:0crwdne64119:0
+      placeholder: crwdns64121:0crwdne64121:0
+    inclusive:
+      label: crwdns64123:0crwdne64123:0
+  loading: crwdns64125:0crwdne64125:0
+  new: crwdns64127:0crwdne64127:0
+  numFound: 'crwdns64129:0{{count}}crwdne64129:0'
+  numFound_plural: 'crwdns64131:0{{count}}crwdne64131:0'
+  permissions: crwdns64133:0crwdne64133:0
+  title: crwdns64135:0crwdne64135:0
+  yaml: crwdns64137:0crwdne64137:0
