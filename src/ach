@@ -1,51 +1,52 @@
 ---
 editor:
   info:
-    createdAt: crwdns62837:0crwdne62837:0
-    delete: crwdns62839:0crwdne62839:0
-    deletedAt: crwdns62841:0crwdne62841:0
-    enabled: crwdns62843:0crwdne62843:0
-    handle: crwdns62845:0crwdne62845:0
-    id: crwdns62847:0crwdne62847:0
-    name: crwdns62849:0crwdne62849:0
-    openBuilder: crwdns62851:0crwdne62851:0
-    title: crwdns62853:0crwdne62853:0
-    undelete: crwdns62855:0crwdne62855:0
-    updatedAt: crwdns62857:0crwdne62857:0
-  new: crwdns62859:0crwdne62859:0
-  permissions: crwdns62861:0crwdne62861:0
-  title:
-    create: crwdns62863:0crwdne62863:0
-    edit: crwdns62865:0crwdne62865:0
-  triggers:
-    and: crwdns62867:0crwdne62867:0
-    columns:
-      constraints: crwdns62869:0crwdne62869:0
-      eventType: crwdns62871:0crwdne62871:0
-      resourceType: crwdns62873:0crwdne62873:0
-    title: crwdns62875:0crwdne62875:0
+    completedAt: crwdns62765:0crwdne62765:0
+    createdAt: crwdns62767:0crwdne62767:0
+    createdByUserID: crwdns62769:0crwdne62769:0
+    createdByUserName: crwdns62771:0crwdne62771:0
+    delete: crwdns62773:0crwdne62773:0
+    deletedAt: crwdns62775:0crwdne62775:0
+    error: crwdns62777:0crwdne62777:0
+    eventType: crwdns62779:0crwdne62779:0
+    id: crwdns62781:0crwdne62781:0
+    resourceType: crwdns62783:0crwdne62783:0
+    status: crwdns62785:0crwdne62785:0
+    title: crwdns62787:0crwdne62787:0
+    workflowID: crwdns62789:0crwdne62789:0
+  title: crwdns62791:0crwdne62791:0
 list:
   columns:
-    actions: "crwdns62877:0crwdne62877:0"
-    createdAt: crwdns62879:0crwdne62879:0
-    enabled: crwdns62881:0crwdne62881:0
-    handle: crwdns62883:0crwdne62883:0
+    actions: "crwdns62793:0crwdne62793:0"
+    createdAt: crwdns62795:0crwdne62795:0
+    eventType: crwdns62797:0crwdne62797:0
+    sessionID: crwdns62799:0crwdne62799:0
+    status: crwdns62801:0crwdne62801:0
+    workflowID: crwdns62803:0crwdne62803:0
   filterForm:
-    deleted:
-      label: crwdns62885:0crwdne62885:0
+    all:
+      label: crwdns62805:0crwdne62805:0
+    completed:
+      label: crwdns62807:0crwdne62807:0
     excluded:
-      label: crwdns62887:0crwdne62887:0
+      label: crwdns62809:0crwdne62809:0
     exclusive:
-      label: crwdns62889:0crwdne62889:0
+      label: crwdns62811:0crwdne62811:0
+    failed:
+      label: crwdns62813:0crwdne62813:0
+    inProgress:
+      label: crwdns62815:0crwdne62815:0
     inclusive:
-      label: crwdns62891:0crwdne62891:0
-    query:
-      label: crwdns62893:0crwdne62893:0
-      placeholder: crwdns62895:0crwdne62895:0
-  loading: crwdns62897:0crwdne62897:0
-  new: crwdns62899:0crwdne62899:0
-  numFound: 'crwdns62901:0{{count}}crwdne62901:0'
-  numFound_plural: 'crwdns62903:0{{count}}crwdne62903:0'
-  permissions: crwdns62905:0crwdne62905:0
-  title: crwdns62907:0crwdne62907:0
-  yaml: crwdns62909:0crwdne62909:0
+      label: crwdns62817:0crwdne62817:0
+    prompted:
+      label: crwdns62819:0crwdne62819:0
+    sessions:
+      label: crwdns62821:0crwdne62821:0
+    started:
+      label: crwdns62823:0crwdne62823:0
+    suspended:
+      label: crwdns62825:0crwdne62825:0
+  loading: crwdns62827:0crwdne62827:0
+  numFound: 'crwdns62829:0{{count}}crwdne62829:0'
+  numFound_plural: 'crwdns62831:0{{count}}crwdne62831:0'
+  title: crwdns62833:0crwdne62833:0
