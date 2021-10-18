@@ -61,12 +61,12 @@ kind:
     queryFieldsLabel: Query fields on search
     recordFieldLabel: Record label from field
     recordFieldPlaceholder: Pick field
-    suggestionPlaceholder: Start typing to search for records
+    suggestionPlaceholder: החל להקליד כדי לחפש רשומות
   select:
     label: Select
     optionAdd: Add
     optionLabelPlaceholder: Label
-    optionNotSelected: No option selected
+    optionNotSelected: נא לבחור אפשרות
     optionRemove: Remove
     optionType:
       default: Single input
@@ -139,7 +139,7 @@ selector:
   systemField: (system field)
   unselectAll: Unselect all
 system:
-  createdAt: Created at
+  createdAt: נוצר בתאריך
   createdBy: Created by
   deletedAt: Deleted at
   deletedBy: Deleted by

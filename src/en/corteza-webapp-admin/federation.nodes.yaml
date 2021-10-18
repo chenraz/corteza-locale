@@ -10,7 +10,7 @@ editor:
     subject: 'Subject:'
   generateUri: Generate Federation Link
   info:
-    createdAt: Created at
+    createdAt: נוצר בתאריך
     delete: Delete
     deletedAt: Deleted at
     email: Admin Email

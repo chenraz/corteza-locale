@@ -2,7 +2,7 @@ editor:
   info:
     archive: Archive
     archivedAt: Archived at
-    createdAt: Created at
+    createdAt: נוצר בתאריך
     delete: Delete
     deletedAt: Deleted at
     handle: Handle

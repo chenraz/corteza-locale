@@ -1,7 +1,7 @@
 editor:
   info:
     consumer: Consumer
-    createdAt: Created at
+    createdAt: נוצר בתאריך
     delete: Delete
     deletedAt: Deleted at
     dispatch_events: Dispatch events
@@ -21,7 +21,7 @@ list:
   columns:
     actions: Actions
     consumer: Consumer
-    createdAt: Created At
+    createdAt: נוצר בתאריך
     queue: Queue
   filterForm:
     deleted:

@@ -1,7 +1,7 @@
 editor:
   info:
     completedAt: Completed at
-    createdAt: Created at
+    createdAt: נוצר בתאריך
     createdByUserID: Created by - ID
     createdByUserName: Created by - Name
     delete: Delete
@@ -17,7 +17,7 @@ editor:
 list:
   columns:
     actions: ""
-    createdAt: Created At
+    createdAt: נוצר בתאריך
     eventType: Event type
     sessionID: SessionID
     status: Status
