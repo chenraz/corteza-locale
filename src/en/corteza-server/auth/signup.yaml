@@ -9,7 +9,7 @@ template:
       placeholder: Password
     name:
       label: שם מלא
-      placeholder: Your full name
+      placeholder: שמך המלא
     nickname:
       label: Short name, nickname or handle
       placeholder: כינוי או שם חיבה

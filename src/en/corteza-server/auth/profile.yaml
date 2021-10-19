@@ -4,10 +4,10 @@ template:
     email:
       label: אימייל
       placeholder: email@domain.ltd
-      resend-confirmation-link: Email is not verified, <a href="{{link}}?resend">resend confirmation link.</a>
+      resend-confirmation-link: אימייל טרם אומת, <a href="{{link}}?resend">שליחה מחדש של מייל אימות</a>
     name:
       label: שם מלא
-      placeholder: Your full name
+      placeholder: שמך המלא
     handle:
       label: כינוי
       placeholder: כינוי או שם חיבה
