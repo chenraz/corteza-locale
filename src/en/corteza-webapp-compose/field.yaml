@@ -75,7 +75,7 @@ kind:
       multiple: Multiple select
     optionValuePlaceholder: Value
     optionsLabel: Options to select from
-    placeholder: Select an option by clicking here
+    placeholder: נא לבחור אפשרות
   string:
     label: String
     multiLine: Multi line
@@ -143,7 +143,7 @@ system:
   createdBy: Created by
   deletedAt: Deleted at
   deletedBy: Deleted by
-  ownedBy: Owned by
+  ownedBy: בבעלות
   updatedAt: Updated at
   updatedBy: Updated by
 validators:

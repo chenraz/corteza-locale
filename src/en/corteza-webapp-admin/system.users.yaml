@@ -1,7 +1,7 @@
 editor:
   info:
     confirmEmail: Confirm email address
-    createdAt: נוצר בתאריך
+    createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
     email: Email

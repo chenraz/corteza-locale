@@ -160,7 +160,7 @@ metric:
     modulePlaceholder: Pick a module
     numberFormat: Number format
     operationAvg: Avg
-    operationCountd: Count
+    operationCountd: ספירה
     operationLabel: Aggregation operation
     operationMax: Max
     operationMin: Min

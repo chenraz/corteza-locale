@@ -23,7 +23,7 @@ editor:
     contentType:
       text_html: HTML
       text_plain: Plain text
-    createdAt: נוצר בתאריך
+    createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
     handle: Handle

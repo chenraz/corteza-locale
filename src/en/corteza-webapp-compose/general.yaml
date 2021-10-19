@@ -17,7 +17,7 @@ label:
   delete: Delete
   description: Description
   download: Download
-  dropFiles: Click or drop files here to upload
+  dropFiles: הקלק כאן או גרור ומשוך קבצים
   edit: Edit
   enabled: Enabled
   export: ייצוא

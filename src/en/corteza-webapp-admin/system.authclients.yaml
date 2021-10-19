@@ -3,7 +3,7 @@ editor:
     add: Add
     api: Allow client access to Corteza API on behalf of user
     choose-date: Choose a date
-    createdAt: נוצר בתאריך
+    createdAt: Created at
     delete: Delete
     deletedAt: Deleted at
     enabled:
