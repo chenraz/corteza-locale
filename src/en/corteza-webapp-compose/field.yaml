@@ -89,7 +89,7 @@ kind:
     trimToDomain: Trim Url down to domain only
   user:
     label: User
-    na: N/A
+    na: לא זמין
     presetWithCurrentUser: Preset with current user
     suggestionPlaceholder: Start typing to search for users by email or name
     roles:
