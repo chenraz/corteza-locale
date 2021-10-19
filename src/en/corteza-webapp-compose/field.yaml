@@ -20,7 +20,7 @@ kind:
       futureValuesOnly: Only dates in the future will be saved
       pastValuesOnly: Only dates in the past will be saved
   email:
-    label: Email
+    label: אימייל
     preventToLink: Don't turn email into a link
   file:
     label: File
