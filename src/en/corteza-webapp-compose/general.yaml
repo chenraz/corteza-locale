@@ -84,7 +84,7 @@ reminder:
     remindAtNone: Never
     titleLabel: Title
     titlePlaceholder: Title
-  listLabel: Reminders
+  listLabel: תזכורות
   routesTo: 'Includes link to:'
   snooze: Snooze
 tooltip:

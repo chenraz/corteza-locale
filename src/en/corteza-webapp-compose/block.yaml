@@ -54,7 +54,7 @@ calendar:
     titlePlaceholder: (No field)
   reminderFeed:
     colorLabel: Event color
-    optionLabel: Reminders
+    optionLabel: תזכורות
   today: היום
   view:
     dayGridMonth: חודש
