@@ -1,14 +1,14 @@
 template:
-  title: אימות
+  title: Authorize
   form:
-    greeting-paragraph: שלום
-    question-for-client: מבקשת לבצע פעולות על שרת זה בשמך.
+    greeting-paragraph: Hello
+    question-for-client: would like to perform actions on this Corteza server on your behalf.
     buttons:
-      allow: לאפשר
-      deny: לדחות
+      allow: Allow
+      deny: Deny
   links:
-    mistake: אם זו טעות, אנא <a href="{{link}}">התנתקו</a>.
+    mistake: If this is a mistake, please <a href="{{link}}">log out</a>.
   errors:
-    invalid-user: לא ניתן להמשיך מבלי לאמת את האימייל, יש לפתור את הבעיה בעמוד  <a href="{{link}}">פרופיל אישי</a>.
+    invalid-user: Cannot continue with unauthorized email, visit <a href="{{link}}">your profile</a> and resolve the issue.
 alerts:
-  denied: לא ניתן לאמת את {{client}}, אין הרשאות.
+  denied: cannot authorize {{client}}, no permissions.

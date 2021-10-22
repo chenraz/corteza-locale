@@ -1,24 +1,24 @@
 template:
-  title: יצירת חשבון
+  title: Sign up
   form:
     email:
-      label: אימייל
+      label: E-mail
       placeholder: email@domain.ltd
     password:
-      label: סיסמה
-      placeholder: סיסמה
+      label: Password
+      placeholder: Password
     name:
-      label: שם מלא
-      placeholder: שמך המלא
+      label: Full name
+      placeholder: Your full name
     nickname:
-      label: כינוי
-      placeholder: כינוי או שם חיבה
+      label: Short name, nickname or handle
+      placeholder: Short name, nickname or handle
     button:
-      sign-up: יצירת חשבון
-  log-in: כבר יש לך חשבון? <a href="{{link}}">התחברות</a>
+      sign-up: Submit
+  log-in: Already have an account? <a href="{{link}}">Log in</a>
 
 alerts:
-  signup-successful: חשבון נוצר בהצלחה.
-  email-confirmed-logged-in: אימייל מאומת, התחברות בוצעה בהצלחה.
-  invalid-expired-token: טוקן אימות מייל לא תקין או פג תוקף, נא לשלוח מייל אימות שנית.
+  signup-successful: Sign-up successful.
+  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
+  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
   signup-disabled: Signup disabled

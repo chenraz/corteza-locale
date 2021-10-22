@@ -1,22 +1,22 @@
 template:
-  title: התחברות
+  title: Log in
   form:
     email:
-      label: אימייל
+      label: E-mail
       placeholder: email@domain.ltd
     password:
-      label: סיסמה
-      placeholder: סיסמה
+      label: Password
+      placeholder: password
     button:
-       login-and-remember: התחבר וזכור אותי
-       login: התחבר
-       continue: המשך
+       login-and-remember: Log in and remember me
+       login: Log in
+       continue: Continue
   links:
-    request-password-reset: שכחת סיסמה?
-    signup: יצירת חשבון חדש
+    request-password-reset: Forgot your password?
+    signup: Create a new account
     external:
       login-with: Login with {{idp}}
 
 alerts:
-  logged-in: התחברת בהצלחה.
+  logged-in: You are now logged-in.
   local-disabled: Local accounts disabled
