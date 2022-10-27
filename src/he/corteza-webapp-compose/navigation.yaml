@@ -1,12 +1,12 @@
-automation: Automation
+automation: אוטומציה
 chart: Charts
 configuration: Configuration
-editPage: Edit Page
+editPage: עריכת עמוד
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: תעוד מערכת
+  feedback: שליחת משוב
+  forum: עזרה
+  version: 'גרסה:'
 module: Modules
 more: More
 namespace: Namespaces

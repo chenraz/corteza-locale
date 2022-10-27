@@ -1,12 +1,12 @@
 adminPanel: פאנל ניהול
-automation: Automation
+automation: אוטומציה
 chart: Charts
 configuration: Configuration
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: תעוד מערכת
+  feedback: שליחת משוב
+  forum: עזרה
+  version: 'דרסה:'
 module: Modules
 more: More
 namespace: Namespaces
