@@ -43,6 +43,7 @@ label:
   pageBuilder=מחולל עמודים: מחולל עמודים
   permissions: הרשאות
   private: פרטי
+  privacy: פרטיות
   processing: מעבד...
   record: רשומה
   recordPage: עמוד רשומה
@@ -105,7 +106,7 @@ fieldKinds:
   Select:
     label: Select / dropdown
   String:
-    label: Text input (string)
+    label: פקד טקסט (string input)
   Url:
     label: URL input
   User:

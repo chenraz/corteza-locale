@@ -1,20 +1,20 @@
 automation: אוטומציה
-chart: Charts
-configuration: Configuration
+chart: תרשימים
+configuration: הגדרות
 editPage: עריכת עמוד
 help:
   documentation: תעוד מערכת
   feedback: שליחת משוב
   forum: עזרה
   version: 'גרסה:'
-module: Modules
-more: More
-namespace: Namespaces
-noPageTitle: No page title
-page: Pages
+module: מודולות
+more: פריטים נוספום
+namespace: אפליקציות
+noPageTitle: אין כותרת עמוד
+page: עמודים
 userSettings:
   changePassword: שינוי סיסמה
   loggedInAs: משתמש מחובר {{user}}
   logout: התנתקות
   profile: פרופיל אישי
-viewPage: View Page
+viewPage: הצגת עמוד

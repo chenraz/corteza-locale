@@ -1,30 +1,32 @@
 allRecords:
   create:
-    title: Create record for module "{{name}}"
+    title: יצירת רשומה חדש במודול "{{name}}"
   edit:
-    title: Edit record for module "{{name}}"
-  label: All records
+    title: עריכת רשומה במודול "{{name}}"
+  label: כל הרשומות
   list:
-    title: All records for module "{{name}}"
+    title: כל הרשומות במודול "{{name}}"
   columns:
-    title: Configure columns
-    description: The columns picked won't be saved after you refresh the page
+    title: הגדרות עמודות
+    description: העמודה הנבחרת לא תישמר לאחר ריפרוש העמוד
   view:
-    title: View record for module "{{name}}"
+    title: צפייה ברשומה במודול "{{name}}"
 block:
   record:
-    recordDeleted: This record was deleted
-    loadFailed: Could not load record
-createLabel: New Module
+    recordDeleted: רשומה זו נמחקה
+    loadFailed: לא ניתן לטעון את הרשומה
+createLabel: מודול חדש
 edit:
-  create: Create module
-  edit: Edit module
+  create: יצירת מודול
+  edit: עריכת מודול
+  fields:
+    label: שדות  
   federationSettings:
     downstream:
-      allFields: All Fields
+      allFields: כל השדות
       description: 'Match federated fields with existing ones:'
       title: Map
-    errorFetchingData: Error fetching server data
+    errorFetchingData: שגיאה בשליפת נתונים מהשרת
     general:
       receive: Receive new records from another organization (downstream)
       send: Send new records to the federated network (upstream)
@@ -40,47 +42,124 @@ edit:
       allFields: All Fields
       description: Select the fields you want to share with the selected network
       title: Expose
-  fieldPermissions: Field permissions
-  manageRecordFields: Manage record fields
+  fieldPermissions: הרשאות שדה
+  manageRecordFields: ניהול שדות הרשומה
   moduleFieldSettings: Module field settings
-  moduleInfo: Module info
-  newField: Add new field
-  recordPermissions: Record permissions
-  reorderFields: Reorder fields
-  specificFieldSettings: Field settings ({{name}})
+  moduleInfo: פרטי המודול
+  newField: הוספת שדה חדש
+  recordPermissions: הרשאות רשומה
+  reorderFields: שינוי סדר שדות
+  specificFieldSettings: הגדרות שדה ({{name}})
   steps:
-    recordList: Page with record list
-    recordPage: Record page
-  systemFields: 'System fields:'
+    recordList: עמוד עם רשימת רשומות
+    recordPage: עמוד רשומה
+  systemFields: 'שדות מערכת:'
   tooltip:
     attributes: Select if the field can hold multiple values, if it's required field or if contains sensitive data
     name: Must be a-z/A-Z, 0-9 or underscore
-    private: Sensitive data
-    required: Required field
+    private: מידע רגיש
+    required: שדה נדרש
     title: The name displayed in form input / data lists
+
+  config:
+    dal:
+      title: בסיס מידע
+      connection:
+        label: חיבור לבסיס מידע
+        placeholder: בחירת חיבור לבסיס מידע
+        description: שינוי החיבור יאפס את הגדרות רמת הרגישות במודול ובשדות, במידה ורמת הרגישות אינה תואמת לחיבור החדש
+      ident:
+        label: שם קולקציה או טבלבה בבסיס המידע
+        placeholder: compose_record
+        description: "שם קולקציה או טבלה בבסיס המידע לניהול הרשומות. ניתן לפצל את המזהה: {{module}} עבור מזהה המודול וכן {{namespace}} עבור מזהה האפליקציה"
+
+      connections:
+        fetch-failed: לא ניתן לשלוף חיבורים זמינים
+
+
+      module-fields:
+        label: מיפוי וקידוד שדות המודול
+        description: |
+          יש להגדיר את אופן האכסון והקריאה של שדות הרשומה מבסיס המידע.
+          ברירת המחדל היא לקודד את הערכים ל- JSON ולמור אותם כשדה אחד.
+          לחילופין, ניתן להשתמש בעמודות עם שם זהה לשם השדה (עמודה)
+          או להשתמש ב- Aias ולשמור את הערך ישירות בעמודה.
+
+      system-fields:
+        label: מיפוי וקידוד שדות המערכת
+        description: |
+          שדות מערכת משמשים לאכון מידע מטה אודות הרשומה.
+          יש להגדיר אם להתעלם או לשמור אותם בשדה עם שם זהה (עמודה),
+          בעמודה נפרדת (Alias) או לקודד אותם ל- JSON.
+
+      encoding-strategy:
+        ident:
+          placeholder: Field or database table column name
+
+        strategies:
+          plain:
+            label: Column
+          alias:
+            label: Alias
+          json:
+            label: JSON
+
+
+    privacy:
+      title: הגדרות פרטיות
+      sensitivity-level:
+        label: רמת רגישות מקסימלית מותרת
+        placeholder: בחירת רמת רגישות
+        description: רמת רגישות מקסימלית מותרת עבור השדותל במודול, שינוי ערך זה יאפס את רמת רגישות השדות במידה והם לא תואמים
+      usage-disclosure:
+        label: הצהרת פרטיות ומידע רגיש (מוצג בקונסולת הגדרות הפרטיות)
+
+      sensitivity-levels:
+        fetch-failed: לא ניתן לשלוף את רמות הרגישות
+
+    record-revisions:
+      title: גרסאות רשומה
+      enabled: ניהול גרסאות רשומה
+      ident:
+        label: מזהה
+        placeholder: compose_record_revisions
+        description: 'שם קולקציה או טבלה בבסיס המידע לניהול גרסאות רשומה. ניתן לחלק את המזהה: {{module}} עבור מזהה מודול וכן {{namespace}} עבור מזהה אפליקציה'
+
+    validation:
+      title: אימות
+
+      record-duplication:
+        title: ניטור רשומות כפולות
+        strict-fields:
+          label: מניעת שדות עם ערכים כפולים
+          description: הרשומה לא תעדכן במידה ואותרו ערכים זהים בשדות הנבחרים באחת הרשומות שכבר קיימות במודול
+        non-strict-fields:
+          label: התראה על שדות עם ערכים כפולים
+          description: הרשומה תתעדכן ולמשתמש תוצג התראה כאשר אותרו ערכים זהים בשדות הנבחרים באחת הרשומות שכבר קיימות במודול 
+
 federated: Federated
 forModule:
   recordList: Record List for module
   recordListPage: Record List page for module
   recordPage: Record page for module
 general:
-  fields: Module fields
+  fields: שדות המודול
   label:
-    attributes: Attributes
-    handle: Handle
-    name: Name
-    permissions: Permissions
-    title: Title
-    type: Type
-    saveAndClose: Save and close
+    attributes: מאפיינים
+    handle: מזהה (handle)
+    name: שם
+    permissions: הרשאות
+    title: כותרת
+    type: סוג
+    saveAndClose: שמירה וסגירה
   placeholder:
     handle: handle (a - z, 0 - 9, underscore, dash)
     sample: Sample
   invalid-handle-characters: Should be al least 2 characters long and start with a letter. Can contains only letters, numbers, dash, underscore and dot
-import: Module import
+import: ייבוא מודול
 navigation:
-  module: Modules
-newLabel: Module Name *
+  module: מודולות
+newLabel: שם המודול *
 newPlaceholder: Name used on the list of modules
 noModule: No modules
 noModuleFilter: No module matches your search
@@ -92,7 +171,11 @@ notification:
   page:
     createFailed: Could not create a page
 recordPage:
-  create: Create record page
-  edit: Page builder
-searchPlaceholder: Type here to search all modules in this namespace
+  create: יצירת עמוד לרשומה
+  edit: מחולל עמודים
+recordListPage:
+  create: יצירת עמוד לרשימת הרשומות
+  edit: עריכת עמוד רשימת רשומות 
+related-pages: עמודים קשורים
+searchPlaceholder: חיפוש כל המודולות באפליקציה
 title: List of Modules

@@ -1,5 +1,5 @@
 defaultFieldValue: Default field value
-defaultValue: Default value
+defaultValue: ברירת מחדל
 kind:
   bool:
     checkedValueLabel: Value when checked
@@ -78,8 +78,8 @@ kind:
     placeholder: נא לבחור אפשרות
   string:
     label: String
-    multiLine: Multi line
-    richText: Use Rich Text Editor
+    multiLine: שורות מרובות
+    richText: שימוש בעורך טקסט
   url:
     label: URL
     preventToLink: Don't turn Url into a link
@@ -99,24 +99,24 @@ noPermission: No permission to read field value
 options:
   description:
     label:
-      default: Description
-      edit: Description edit
-      view: Description view
+      default: תאור
+      edit: עריכת תאור
+      view: הצגת תאור
     placeholder:
-      default: Description text...
-      edit: Description when editing record field...
-      view: Description when viewing record field...
-    same: Show same description on view and edit
+      default: טקסט תאור...
+      edit: תאור בעת עריכת שדה ברשומה...
+      view: תאור בעת הצגת שדה ברשומה...
+    same: הצגת תאור זהה בעריכה ובתצוגה
   hint:
     label:
-      default: Hint
-      edit: Hint edit
-      view: Hint view
+      default: טקסט סיוע (hint)
+      edit: עריכת טקסט סיוע
+      view: הצגת טקסט סיוע
     placeholder:
       default: Hint text...
       edit: Hint when editing record field...
       view: Hint when viewing record field...
-    same: Show same hint on view and edit
+    same: הצגת טקסט סיוע זהה לעריכת ותצוגה
   multiDelimiter:
     comma: Separated by a comma
     custom: A custom delimiter
@@ -125,12 +125,12 @@ options:
     label: Multiple value delimiter
     newline: Each value in a new line
 sanitizers:
-  add: + Add
-  description: Trim spaces from text or do other kinds of value manipulation before validation
-  examples: Examples
+  add: + הוספה
+  description: הסרת רווחים מיותרים או מניפולציות אחרות על הערך לפני האימות
+  examples: דוגמאות
   expression:
     placeholder: trim(value)
-  label: Value sanitization
+  label: סניטציה לערכים
 selector:
   search: חיפוש שדות במודול
   available: שדות זמינים
@@ -138,6 +138,12 @@ selector:
   selected: שדות שנבחרו
   systemField: (system field)
   unselectAll: הסר את כל השדות
+privacy:
+  sensitivity-level:
+    label: רמת רגישות
+    placeholder: בחירת רמת רגישות
+  usage-disclosure:
+    label: הצהרת שימוש בשדות רגישים (מוצג בקונסולת ניהול הפרטיות)
 system:
   createdAt: נוצר בתאריך
   createdBy: Created by
@@ -147,13 +153,13 @@ system:
   updatedAt: Updated at
   updatedBy: Updated by
 validators:
-  description: Set of expressions and error pairs that test validity of the input value.
-  disableBuiltIn: Disable built-in validators
+  description: אוסף ביטויים ושגיאות לאימות הנתון שנקלט.
+  disableBuiltIn: כיבוי מנגנוני הולידציה של המערכת
   error:
     placeholder: Text displayed when expression is true
   expression:
     placeholder: value == ""
-  label: Value validation
+  label: ולידציה לערכים
 valueExpr:
   description: Insert a formula or expression that calculates numeric values or combines and manipulates text values
   label: Field value expression

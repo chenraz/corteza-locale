@@ -385,7 +385,7 @@ selectBlockFootnote: Some types might be disabled for non-record pages
 field:
   noPermission: No permission to read field value
   selector:
-    available: Available fields
+    available: שדות זמינים
     systemField: (system field)
 comment:
   label: 'Comments'
