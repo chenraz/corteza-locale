@@ -50,3 +50,11 @@ reordered: Page reordered
 title: List of Pages
 view: View
 visible: Visible
+public:
+  record:
+    create:
+      title: יצירת רשומה במודול "{{name}}"
+    edit:
+      title: עריכת רשומה במודול "{{name}}"
+    view:
+      title: תצוגת רשומה במודול "{{name}}"
